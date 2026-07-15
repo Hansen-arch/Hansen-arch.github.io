@@ -3,14 +3,6 @@ hide:
   - toc
   - navigation
 ---
-<!--
-CHECKLIST FOR THIS PAGE:
-- [x] Replace the two placeholder cards (marked [YOUR PROJECT ...]) with your real projects
-- [x] For each project: add a thumbnail image to docs/assets/images/ and update the path below
-- [x] For each project: create a project page by copying sample-project.md
-- [x] For each project: add a nav entry in mkdocs.yml (see the comments there)
-- [x] Delete placeholder cards you don't need yet
--->
 
 # Projects
 

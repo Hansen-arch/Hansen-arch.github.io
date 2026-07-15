@@ -70,6 +70,5 @@ nav:
   - Projects:
     - "All Projects": projects/index.md
     - "BioSift": projects/biosift.md
-    - "Student Stress Analysis": projects/student-stress.md
   - Experience: experience.md
   - Contact: contact.md
