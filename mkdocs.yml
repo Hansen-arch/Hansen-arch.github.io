@@ -1,11 +1,8 @@
 # ============================================================
 # PORTFOLIO CONFIGURATION
-# This file is in the YAML format and is very sensitive to 
-# spaces. Ensure to match the indentation level and spacing
-# of new items with existing ones
 # ============================================================
 
-site_name: "Reihan Apriandi - Forestry & Geospatial Portfolio"
+site_name: "Reihan Apriandi — Forestry & Geospatial"
 site_description: "Portfolio of Reihan Apriandi — Forestry, GIS, Remote Sensing, and Spatial Data Science"
 site_author: "Reihan Apriandi"
 site_url: "https://hansen-arch.github.io/"
@@ -16,27 +13,43 @@ theme:
     logo: material/pine-tree
   palette:
     - scheme: default
-      primary: green
-      accent: light green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
-      primary: green
-      accent: light green
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.top
+    - navigation.instant
     - content.code.copy
+    - navigation.footer
   font:
-    text: Roboto
+    text: Inter
     code: Roboto Mono
 
 extra_css:
   - assets/css/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Hansen-arch
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/reihan-apriandi-700845266/
+      name: LinkedIn
+    - icon: material/email
+      link: mailto:apriandireihan@gmail.com
+      name: Email
+
+copyright: "© 2026 Reihan Apriandi · Forestry & Spatial Data Science"
 
 markdown_extensions:
   - md_in_html
@@ -48,17 +61,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-copyright: "Copyright &copy; Reihan Apriandi"
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Hansen-arch
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/reihan-apriandi-700845266/
-    - icon: material/email
-      link: mailto:apriandireihan@gmail.com
 
 plugins:
   - search
