@@ -1,12 +1,13 @@
 /* ============================================================
    FORESTRY PORTFOLIO — EXTRA CSS
    Professional forest/earth tone theme
+   Light + Dark mode support
    ============================================================ */
 
 /* ── FONTS ── */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
 
-/* ── CSS VARIABLES ── */
+/* ── CSS VARIABLES — LIGHT MODE ── */
 :root {
   --forest-dark:    #1a3a2a;
   --forest-mid:     #2d5a3d;
@@ -18,6 +19,81 @@
   --moss:           #7a9e5f;
   --mist:           #f0f5f1;
   --shadow:         rgba(26, 58, 42, 0.12);
+  --text-primary:   #1a3a2a;
+  --text-secondary: #2d5a3d;
+  --text-body:      #333333;
+  --card-bg:        linear-gradient(135deg, #f0f5f1 0%, #e8f2eb 100%);
+  --card-border:    #c5ddc8;
+  --card-top:       #4a7c59;
+  --hero-overlay:   linear-gradient(160deg,
+                      rgba(26, 58, 42, 0.88) 0%,
+                      rgba(45, 90, 61, 0.85) 50%,
+                      rgba(74, 124, 89, 0.82) 100%);
+  --hero-text:      #ffffff;
+  --hero-strong:    #a8d5b5;
+  --hero-em:        rgba(255, 255, 255, 0.80);
+  --about-bg:       #f0f5f1;
+  --about-text:     #1a3a2a;
+  --about-border:   #4a7c59;
+  --about-img:      #e8f2eb;
+  --heading-color:  #1a3a2a;
+  --heading-sub:    #2d5a3d;
+  --heading-border: #e8f2eb;
+  --timeline-bg:    #f0f5f1;
+  --timeline-text:  #1a3a2a;
+  --timeline-dot:   #4a7c59;
+  --timeline-dot-b: #e8f2eb;
+  --btn-outline-c:  #2d5a3d;
+  --btn-outline-b:  #4a7c59;
+  --btn-outline-hv: #e8f2eb;
+  --code-bg:        #e8f2eb;
+  --code-color:     #6b4c2a;
+  --table-even:     #e8f2eb;
+  --hr-color:       #e8f2eb;
+  --scroll-track:   #f0f5f1;
+  --scroll-thumb:   #4a7c59;
+  --scroll-hover:   #2d5a3d;
+}
+
+/* ── CSS VARIABLES — DARK MODE ── */
+[data-md-color-scheme="slate"] {
+  --forest-pale:    #1a2e23;
+  --mist:           #1e3329;
+  --shadow:         rgba(0, 0, 0, 0.35);
+  --text-primary:   #d4e4d9;
+  --text-secondary: #8fcfa0;
+  --text-body:      #c5d8cc;
+  --card-bg:        linear-gradient(135deg, #1e3329 0%, #1a2e23 100%);
+  --card-border:    #2d5a3d;
+  --card-top:       #4a7c59;
+  --hero-overlay:   linear-gradient(160deg,
+                      rgba(10, 30, 20, 0.93) 0%,
+                      rgba(20, 50, 35, 0.91) 50%,
+                      rgba(30, 70, 45, 0.89) 100%);
+  --hero-text:      #ffffff;
+  --hero-strong:    #8fcfa0;
+  --hero-em:        rgba(255, 255, 255, 0.75);
+  --about-bg:       #1e3329;
+  --about-text:     #d4e4d9;
+  --about-border:   #4a7c59;
+  --about-img:      #2d5a3d;
+  --heading-color:  #8fcfa0;
+  --heading-sub:    #7abf8e;
+  --heading-border: #2d5a3d;
+  --timeline-bg:    #1e3329;
+  --timeline-text:  #d4e4d9;
+  --timeline-dot:   #4a7c59;
+  --timeline-dot-b: #1e3329;
+  --btn-outline-c:  #8fcfa0;
+  --btn-outline-b:  #4a7c59;
+  --btn-outline-hv: #2d5a3d;
+  --code-bg:        #1a2e23;
+  --code-color:     #8fcfa0;
+  --table-even:     #1a2e23;
+  --hr-color:       #2d5a3d;
+  --scroll-track:   #1a2e23;
+  --scroll-thumb:   #4a7c59;
+  --scroll-hover:   #2d5a3d;
 }
 
 /* ── HERO SECTION ── */
@@ -25,13 +101,10 @@
   text-align: center;
   padding: 3rem 2rem 2.5rem 2rem;
   background:
-    linear-gradient(160deg,
-      rgba(26, 58, 42, 0.88) 0%,
-      rgba(45, 90, 61, 0.85) 50%,
-      rgba(74, 124, 89, 0.82) 100%),
+    var(--hero-overlay),
     url('../images/hero-image.png') center / cover no-repeat;
   border-radius: 12px;
-  border: 1px solid var(--forest-light);
+  border: 1px solid var(--card-border);
   box-shadow: 0 8px 32px var(--shadow);
 }
 
@@ -40,30 +113,30 @@
   margin-bottom: 0.25rem;
   font-family: 'Merriweather', serif;
   font-size: 2.2rem;
-  color: #ffffff !important;
+  color: var(--hero-text) !important;
   letter-spacing: 0.02em;
 }
 
 .hero p {
   margin-top: 0;
   margin-bottom: 0.4rem;
-  color: rgba(255, 255, 255, 0.92) !important;
+  color: var(--hero-text) !important;
   font-size: 1.05rem;
 }
 
 .hero p strong {
-  color: #a8d5b5 !important;
+  color: var(--hero-strong) !important;
   font-size: 1.1rem;
 }
 
 .hero p em {
-  color: rgba(255, 255, 255, 0.80) !important;
+  color: var(--hero-em) !important;
   font-style: italic;
 }
 
 .hero + hr {
   margin-top: 1rem;
-  border-color: var(--forest-pale);
+  border-color: var(--hr-color);
 }
 
 /* ── PROFILE PHOTO ── */
@@ -83,10 +156,10 @@
   display: flex;
   gap: 2.5rem;
   align-items: center;
-  background: var(--mist);
+  background: var(--about-bg);
   padding: 2rem;
   border-radius: 10px;
-  border-left: 4px solid var(--forest-light);
+  border-left: 4px solid var(--about-border);
   box-shadow: 0 2px 12px var(--shadow);
 }
 
@@ -94,7 +167,7 @@
   flex: 1;
   font-size: 1.02rem;
   line-height: 1.8;
-  color: var(--forest-dark);
+  color: var(--about-text) !important;
 }
 
 .about-image {
@@ -106,7 +179,7 @@
   border-radius: 10px;
   display: block;
   box-shadow: 0 4px 16px var(--shadow);
-  border: 3px solid var(--forest-pale);
+  border: 3px solid var(--about-img);
 }
 
 @media (max-width: 768px) {
@@ -125,24 +198,31 @@
 /* ── SECTION HEADINGS ── */
 .md-typeset h2 {
   font-family: 'Merriweather', serif;
-  color: var(--forest-dark);
-  border-bottom: 2px solid var(--forest-pale);
+  color: var(--heading-color) !important;
+  border-bottom: 2px solid var(--heading-border);
   padding-bottom: 0.4rem;
   margin-top: 2rem;
 }
 
 .md-typeset h3 {
-  color: var(--forest-mid);
+  color: var(--heading-sub) !important;
+}
+
+/* ── BODY TEXT ── */
+.md-typeset p,
+.md-typeset li {
+  color: var(--text-body);
 }
 
 /* ── SKILL CARDS ── */
 .md-typeset .grid.cards > ul > li {
-  background: linear-gradient(135deg, var(--mist) 0%, var(--forest-pale) 100%);
-  border: 1px solid #c5ddc8;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
   border-radius: 10px;
-  border-top: 3px solid var(--forest-light);
+  border-top: 3px solid var(--card-top);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 2px 8px var(--shadow);
+  color: var(--text-body);
 }
 
 .md-typeset .grid.cards > ul > li:hover {
@@ -152,13 +232,14 @@
 
 /* ── PROJECT CARDS ── */
 .project-card {
-  border: 1px solid #c5ddc8;
+  border: 1px solid var(--card-border);
   border-radius: 10px;
   padding: 1.25rem;
-  background: linear-gradient(135deg, var(--mist) 0%, var(--forest-pale) 100%);
-  border-top: 3px solid var(--forest-light);
+  background: var(--card-bg);
+  border-top: 3px solid var(--card-top);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 2px 8px var(--shadow);
+  color: var(--text-body);
 }
 
 .project-card:hover {
@@ -172,23 +253,24 @@
   object-fit: cover;
   border-radius: 6px;
   margin-bottom: 0.75rem;
-  border: 1px solid #c5ddc8;
+  border: 1px solid var(--card-border);
 }
 
 /* ── TIMELINE ── */
 .timeline {
   padding-left: 1.75rem;
-  border-left: 3px solid var(--forest-light);
+  border-left: 3px solid var(--card-top);
 }
 
 .timeline-entry {
   position: relative;
   margin-bottom: 2rem;
-  background: var(--mist);
+  background: var(--timeline-bg);
   padding: 1.25rem 1.25rem 1rem 1.25rem;
   border-radius: 8px;
-  border: 1px solid #c5ddc8;
+  border: 1px solid var(--card-border);
   box-shadow: 0 2px 8px var(--shadow);
+  color: var(--timeline-text);
 }
 
 .timeline-entry::before {
@@ -199,14 +281,14 @@
   width: 0.9rem;
   height: 0.9rem;
   border-radius: 50%;
-  background-color: var(--forest-light);
-  border: 3px solid var(--forest-pale);
-  box-shadow: 0 0 0 2px var(--forest-light);
+  background-color: var(--timeline-dot);
+  border: 3px solid var(--timeline-dot-b);
+  box-shadow: 0 0 0 2px var(--timeline-dot);
 }
 
 .timeline-entry h3 {
   margin-top: 0;
-  color: var(--forest-dark);
+  color: var(--heading-color) !important;
   font-size: 1rem;
 }
 
@@ -232,12 +314,12 @@
 }
 
 .md-typeset .md-button:not(.md-button--primary) {
-  border-color: var(--forest-light) !important;
-  color: var(--forest-mid) !important;
+  border-color: var(--btn-outline-b) !important;
+  color: var(--btn-outline-c) !important;
 }
 
 .md-typeset .md-button:not(.md-button--primary):hover {
-  background-color: var(--forest-pale) !important;
+  background-color: var(--btn-outline-hv) !important;
   transform: translateY(-1px);
 }
 
@@ -254,13 +336,13 @@
 }
 
 .md-typeset table tr:nth-child(even) {
-  background-color: var(--forest-pale);
+  background-color: var(--table-even);
 }
 
 /* ── HEADER / NAV ── */
 .md-header {
   background-color: var(--forest-dark) !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .md-tabs {
@@ -280,14 +362,14 @@
 
 /* ── HORIZONTAL RULE ── */
 .md-typeset hr {
-  border-color: var(--forest-pale);
+  border-color: var(--hr-color);
   margin: 1.5rem 0;
 }
 
 /* ── CODE BLOCKS ── */
 .md-typeset code {
-  background-color: var(--forest-pale);
-  color: var(--earth-brown);
+  background-color: var(--code-bg);
+  color: var(--code-color);
   border-radius: 4px;
   padding: 0.1em 0.4em;
 }
@@ -297,12 +379,12 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--mist);
+  background: var(--scroll-track);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--forest-light);
+  background: var(--scroll-thumb);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--forest-mid);
+  background: var(--scroll-hover);
 }
