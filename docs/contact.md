@@ -1,24 +1,12 @@
----
-hide:
-  - toc
-  - navigation
----
 <!--
 CHECKLIST FOR THIS PAGE:
-- [x] Replace [YOUR-EMAIL-ADDRESS] with your actual email
-- [x] Replace [YOUR-GITHUB-USERNAME] with your GitHub username
-- [x] Replace [YOUR-LINKEDIN-USERNAME] with your LinkedIn username
-- [x] Replace [YOUR-NAME] in the CV link with the actual filename of your PDF
-- [x] Delete the Twitter/X row if you don't use it
-- [x] Delete the ResearchGate row if not applicable
+- [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf (Sep 2026)
+- [ ] Re-sync after every CV update, see PORTFOLIO-SOURCES.md at repo root
 -->
 
 # Contact
 
-I am open to work opportunities, collaborations, and project discussions.  
-Feel free to reach out through any of the channels below.
-
----
+I am open to entry-level roles in GIS analysis, remote sensing, and environmental data work, and happy to discuss collaborations or field projects.
 
 | | |
 |---|---|
@@ -28,6 +16,4 @@ Feel free to reach out through any of the channels below.
 | :fontawesome-brands-github: **GitHub** | [github.com/Hansen-arch](https://github.com/Hansen-arch) |
 | :fontawesome-brands-linkedin: **LinkedIn** | [linkedin.com/in/reihan-apriandi-700845266](https://www.linkedin.com/in/reihan-apriandi-700845266/) |
 
----
-
-[Download CV :material-download:](assets/reihan-CV.pdf){ .md-button .md-button--primary }
+[Download CV](assets/reihan-CV.pdf){ .md-button .md-button--primary }

@@ -8,7 +8,7 @@ hide:
   <img src="assets/images/profile.png" alt="Reihan Apriandi" class="profile-photo">
   <h1>Reihan Apriandi</h1>
   <p><strong>Forestry &amp; Spatial Data Science</strong></p>
-  <p><em>Remote Sensing · Environmental Analytics · Evidence-Based Conservation</em></p>
+  <p><em>Remote Sensing · Environmental Analytics</em></p>
 </div>
 
 ---
@@ -18,15 +18,14 @@ hide:
 <div class="about-section" markdown>
 <div class="about-text" markdown>
 
-I am a final-year Forestry undergraduate at Universitas Riau with field and professional
-experience in land compliance supervision, above-ground biomass surveys, land cover analysis,
-and carbon project support. I integrate forestry expertise with spatial data science — applying
-GIS, remote sensing, and Python-based analytics to evidence-based conservation, sustainable
-forest management, and climate-related research.
+I am a forestry undergraduate at Universitas Riau, currently in my final year. My work so far
+has moved between the field and the desk: supervising excavation sites for boundary compliance
+in Riau, measuring forest plots for an above-ground biomass study on peatland, and digitizing
+land cover data from satellite imagery at RECOFTC. On the analysis side I use QGIS, ArcGIS,
+Google Earth Engine, and Python (Pandas, Matplotlib).
 
-I am currently seeking entry-level opportunities in GIS analysis, remote sensing,
-or environmental data roles where I can contribute to forest monitoring and
-conservation work.
+I am looking for entry-level roles in GIS analysis, remote sensing, or environmental data work,
+preferably connected to forest monitoring.
 
 </div>
 <div class="about-image">
@@ -47,37 +46,38 @@ conservation work.
 
 -   :material-map:{ .lg .middle } **GIS & Remote Sensing**
 
-    - QGIS, ArcGIS, GeoDa, GRASS GIS — Advanced QGIS certificate (Spatial Thoughts, 2026)
+    - QGIS, ArcGIS, GeoDa, GRASS GIS; Advanced QGIS certificate from Spatial Thoughts (2026)
     - Google Earth Engine for land cover and change analysis
-    - Satellite imagery workflows from NASA ARSET trainings — land cover change, active fire & smoke, water quality, hyperspectral data
-    - Accuracy assessment with confusion matrices — validated land cover datasets to ~90% against field reference data at RECOFTC
-    - Climate-focused GIS — Esri *GIS for Climate Action* (2026)
+    - NASA ARSET trainings on land cover change, active fire and smoke monitoring, water quality, and hyperspectral data
+    - Accuracy assessment with confusion matrices; at RECOFTC I validated land cover datasets to about 90% against field reference data
+    - Esri GIS for Climate Action course (2026)
 
 -   :material-tree:{ .lg .middle } **Forestry & Field Work**
 
-    - AGB & carbon stock surveys — DBH, height, species ID (peatland study, PT Hatfield)
-    - Allometric equations & ground-truth validation
-    - Plot boundary staking & excavation compliance supervision
-    - Forest governance & REDD+ — RECOFTC and UNITAR/UN Environment certificates
+    - AGB and carbon stock surveys: DBH, height, and species identification (peatland study with PT Hatfield)
+    - Allometric equations and ground-truth validation
+    - Plot boundary staking and excavation compliance supervision
+    - Forest governance and REDD+ certificates from RECOFTC and UNITAR/UN Environment
 
 -   :material-chart-line:{ .lg .middle } **Data Analysis & Programming**
 
-    - Python (Pandas, Matplotlib), R, SQL — exploratory analysis, visualization, supervised classification with scikit-learn
+    - Python (Pandas, Matplotlib), R, and SQL for exploratory analysis and visualization
+    - Supervised classification with scikit-learn
     - Google Data Analytics Professional Certificate (2025)
     - Oracle Cloud Infrastructure 2025 Certified Data Science Professional
-    - DataCamp — Certified Data Analyst Associate · AI Engineer for Data Scientists Associate
-    - Time Series Analysis — openHPI
+    - DataCamp: Certified Data Analyst Associate and AI Engineer for Data Scientists Associate
+    - Time Series Analysis (openHPI, 2025)
 
 -   :material-web:{ .lg .middle } **Applications & Tools**
 
-    - Web maps & dashboards — Leaflet.js, Folium, Streamlit
-    - Copernicus Marine Service workshops — marine & ocean data (2025)
-    - UAV photogrammetry — Agisoft Metashape, OpenDroneMap
-    - Tiger density population analysis — Harimau Kita (2024)
+    - Web maps and dashboards with Leaflet.js, Folium, and Streamlit
+    - Copernicus Marine Service workshops on marine and ocean data (2025)
+    - UAV photogrammetry with Agisoft Metashape and OpenDroneMap
+    - Tiger density population analysis training (Harimau Kita, 2024)
 
 </div>
 
-Every credential, with issuer and date, is listed on the [Experience page](experience.md#certifications).
+The full list of certifications, with issuers and dates, is on the [Experience page](experience.md#certifications).
 
 ---
 

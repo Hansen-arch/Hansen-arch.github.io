@@ -1,12 +1,7 @@
----
-hide:
-  - toc
-  - navigation
----
 <!--
 CHECKLIST FOR THIS PAGE:
 - [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf (Sep 2026)
-- [ ] Re-sync after every CV update — see PORTFOLIO-SOURCES.md at repo root
+- [ ] Re-sync after every CV update, see PORTFOLIO-SOURCES.md at repo root
 -->
 
 # Experience & Education
@@ -17,8 +12,9 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Site Compliance Supervisor — Ministry of Agriculture of the Republic of Indonesia
-*Aug 2026 – Sep 2026 · Contract · Teluk Meranti, Riau, Indonesia · On-site*
+### Site Compliance Supervisor
+**Ministry of Agriculture of the Republic of Indonesia**
+*Aug–Sep 2026 · Contract · Teluk Meranti, Riau, Indonesia*
 
 - Monitored excavation activities on-site to ensure work stayed within designated plot boundaries and did not encroach on neighboring areas.
 - Directed field workers on the placement of boundary stakes (*patok*) to mark excavation limits for each plot before work began.
@@ -29,8 +25,9 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Assistant Surveyor — Above-Ground Biomass (AGB) Peatland Study · PT Hatfield Indonesia
-*Jun 2026 – Jul 2026 · Freelance · Riau, Indonesia*
+### Assistant Surveyor, Above-Ground Biomass (AGB) Peatland Study
+**PT Hatfield Indonesia**
+*Jun–Jul 2026 · Freelance · Riau, Indonesia*
 
 - Supported AGB field surveys across tropical peatland areas as part of a carbon stock assessment project.
 - Conducted forest plot measurements, including tree diameter (DBH), height, and species identification, to support biomass estimation.
@@ -41,8 +38,9 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Assistant Analyst (Intern) — RECOFTC, The Center for People and Forests
-*Jan 2025 – Jun 2025 · Hybrid · Indonesia*
+### Assistant Analyst (Intern)
+**RECOFTC, The Center for People and Forests**
+*Jan–Jun 2025 · Hybrid · Indonesia*
 
 - Digitized land cover and land use features from satellite imagery using predefined classification protocols with Collect Earth Online, ArcGIS, and QGIS.
 - Verified land cover and land use datasets with approximately 90% accuracy, validated against field reference data using confusion matrix evaluation.
@@ -53,7 +51,8 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Capstone Project Participant — Student Stress Analysis · Hacktiv8 × IBM SkillsBuild
+### Capstone Project Participant
+**Student Stress Analysis · Hacktiv8 × IBM SkillsBuild**
 *Oct 2025 · Online*
 
 - Used Python (Pandas, Matplotlib) for data cleaning, exploratory data analysis (EDA), and visualization.
@@ -63,7 +62,8 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Forest Management Field Training Participant — HPGW, IPB University
+### Forest Management Field Training Participant
+**HPGW, IPB University**
 *Jul 2024 · West Java, Indonesia*
 
 - Completed field practicum covering community forestry, forest inventory, nursery management, soil conservation, non-timber forest products, block area mapping, and in-situ conservation methods.
@@ -80,8 +80,9 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Expert Staff, Commission 4 — Student Representative Council (DPM), Universitas Riau
-*Jan 2024 – Dec 2024*
+### Expert Staff, Commission 4
+**Student Representative Council (DPM), Universitas Riau**
+*Jan–Dec 2024*
 
 - Contributed to institutional policy discussions and student governance within the campus legislative body.
 
@@ -89,8 +90,9 @@ CHECKLIST FOR THIS PAGE:
 
 <div class="timeline-entry" markdown>
 
-### Expert Staff, Fundraising & Business Division — Forestry Student Club (FSC), Universitas Riau
-*May 2023 – Sep 2024*
+### Expert Staff, Fundraising & Business Division
+**Forestry Student Club (FSC), Universitas Riau**
+*May 2023–Sep 2024*
 
 - Coordinated fundraising activities and managed business initiatives to support club operations and academic programs.
 
@@ -103,9 +105,10 @@ CHECKLIST FOR THIS PAGE:
 ## Education
 
 ### Bachelor of Science in Forestry
-**Universitas Riau, Faculty of Agriculture** | *Aug 2022 – Present*
+**Universitas Riau, Faculty of Agriculture**
+*Aug 2022–present*
 
-8th-semester undergraduate student with a GPA of 3.68 / 4.00, focusing on forestry, spatial analysis, remote sensing, and climate-related applications.
+Final-year undergraduate with a GPA of 3.68/4.00, focusing on forestry, spatial analysis, remote sensing, and climate-related applications.
 
 ---
 
@@ -113,29 +116,37 @@ CHECKLIST FOR THIS PAGE:
 
 ### Remote Sensing & GIS
 
-- Advanced QGIS — Spatial Thoughts, Apr–May 2026
-- GIS for Climate Action (6 weeks) — Esri, Mar 2026
-- Visualizing Land Cover and Land Use Change with NASA Satellite Imagery — NASA ARSET, Feb 2026
-- Monitoring Water Quality in Lakes and Coastal Regions Using STREAM — NASA ARSET, Feb 2026
-- Hyperspectral Data for Land and Coastal Systems — NASA ARSET, Jan 2026
-- Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring — NASA ARSET, Jan 2026
-- Fundamentals of Remote Sensing — NASA ARSET, Dec 2025
+| Certification | Issuer | Completed |
+|---|---|---|
+| Advanced QGIS | Spatial Thoughts | Apr–May 2026 |
+| GIS for Climate Action (6 weeks) | Esri | Mar 2026 |
+| Visualizing Land Cover and Land Use Change with NASA Satellite Imagery | NASA ARSET | Feb 2026 |
+| Monitoring Water Quality in Lakes and Coastal Regions Using STREAM | NASA ARSET | Feb 2026 |
+| Hyperspectral Data for Land and Coastal Systems | NASA ARSET | Jan 2026 |
+| Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring | NASA ARSET | Jan 2026 |
+| Fundamentals of Remote Sensing | NASA ARSET | Dec 2025 |
 
 ### Environmental & Marine Data
 
-- Marine Data 4 Sustainable Oceans Workshop — Copernicus Marine Service / Mercator Ocean International, Apr 2025
-- Marine Data 4 Asia Workshop — Copernicus Marine Service / Mercator Ocean International, Jun 2025
+| Certification | Issuer | Completed |
+|---|---|---|
+| Marine Data 4 Sustainable Oceans Workshop | Copernicus Marine Service / Mercator Ocean International | Apr 2025 |
+| Marine Data 4 Asia Workshop | Copernicus Marine Service / Mercator Ocean International | Jun 2025 |
 
 ### Data Analytics & Artificial Intelligence
 
-- Google Data Analytics — Coursera / Google, Oct 2025
-- Oracle Cloud Infrastructure 2025 Certified Data Science Professional — Oracle University, Oct 2025
-- AI Engineer for Data Scientists Associate — DataCamp, Aug 2025
-- Certified Data Analyst Associate — DataCamp, Aug 2025
-- Time Series Analysis — openHPI, Sep 2025
+| Certification | Issuer | Completed |
+|---|---|---|
+| Google Data Analytics | Coursera / Google | Oct 2025 |
+| Oracle Cloud Infrastructure 2025 Certified Data Science Professional | Oracle University | Oct 2025 |
+| AI Engineer for Data Scientists Associate | DataCamp | Aug 2025 |
+| Certified Data Analyst Associate | DataCamp | Aug 2025 |
+| Time Series Analysis | openHPI | Sep 2025 |
 
 ### Forestry & Environment
 
-- Policy Analysis and Forest Governance 101 — RECOFTC, Jun 2025
-- Advancing on REDD+ E-Academy — UNITAR / UN Environment, Oct 2024
-- Population Analysis Series: Tiger Density Analysis — Harimau Kita, Sep 2024
+| Certification | Issuer | Completed |
+|---|---|---|
+| Policy Analysis and Forest Governance 101 | RECOFTC | Jun 2025 |
+| Advancing on REDD+ E-Academy | UNITAR / UN Environment | Oct 2024 |
+| Population Analysis Series: Tiger Density Analysis | Harimau Kita | Sep 2024 |
