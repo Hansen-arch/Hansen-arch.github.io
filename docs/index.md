@@ -41,57 +41,43 @@ conservation work.
 
 ---
 
-## Skills
+## Skills & Certifications
 
 <div class="grid cards" markdown>
 
--   :material-layers:{ .lg .middle } **GIS & Remote Sensing**
+-   :material-map:{ .lg .middle } **GIS & Remote Sensing**
 
-    ---
+    - QGIS, ArcGIS, GeoDa, GRASS GIS — Advanced QGIS certificate (Spatial Thoughts, 2026)
+    - Google Earth Engine for land cover and change analysis
+    - Satellite imagery workflows from NASA ARSET trainings — land cover change, active fire & smoke, water quality, hyperspectral data
+    - Accuracy assessment with confusion matrices — validated land cover datasets to ~90% against field reference data at RECOFTC
+    - Climate-focused GIS — Esri *GIS for Climate Action* (2026)
 
-    - ArcGIS, QGIS (Advanced), Google Earth Engine
-    - GeoDa, GRASS GIS
-    - Accuracy assessment — confusion matrix (target ≥ 90%)
+-   :material-tree:{ .lg .middle } **Forestry & Field Work**
 
--   :material-fence:{ .lg .middle } **Land & Site Compliance**
+    - AGB & carbon stock surveys — DBH, height, species ID (peatland study, PT Hatfield)
+    - Allometric equations & ground-truth validation
+    - Plot boundary staking & excavation compliance supervision
+    - Forest governance & REDD+ — RECOFTC and UNITAR/UN Environment certificates
 
-    ---
+-   :material-chart-line:{ .lg .middle } **Data Analysis & Programming**
 
-    - Boundary verification & site supervision
-    - Encroachment prevention
-    - Permit compliance monitoring
+    - Python (Pandas, Matplotlib), R, SQL — exploratory analysis, visualization, supervised classification with scikit-learn
+    - Google Data Analytics Professional Certificate (2025)
+    - Oracle Cloud Infrastructure 2025 Certified Data Science Professional
+    - DataCamp — Certified Data Analyst Associate · AI Engineer for Data Scientists Associate
+    - Time Series Analysis — openHPI
 
--   :material-code-braces:{ .lg .middle } **Programming & Data Analysis**
+-   :material-web:{ .lg .middle } **Applications & Tools**
 
-    ---
-
-    - Python — Pandas, Matplotlib (Intermediate)
-    - R / RStudio, SQL
-    - Exploratory data analysis & data visualization
-
--   :material-map-marker-radius:{ .lg .middle } **Web Mapping & Dashboards**
-
-    ---
-
-    - Leaflet.js, Folium
-    - Streamlit for data-driven web apps
-
--   :material-brain:{ .lg .middle } **Machine Learning & UAV**
-
-    ---
-
-    - Supervised classification with scikit-learn (Basic)
-    - Drone photogrammetry — Agisoft Metashape, OpenDroneMap (Basic)
-
--   :material-tree:{ .lg .middle } **Forestry & Field Skills**
-
-    ---
-
-    - AGB & carbon stock surveys — DBH, height, species ID
-    - Allometric equations, ground-truth validation
-    - Technical report writing · English (B1)
+    - Web maps & dashboards — Leaflet.js, Folium, Streamlit
+    - Copernicus Marine Service workshops — marine & ocean data (2025)
+    - UAV photogrammetry — Agisoft Metashape, OpenDroneMap
+    - Tiger density population analysis — Harimau Kita (2024)
 
 </div>
+
+Every credential, with issuer and date, is listed on the [Experience page](experience.md#certifications).
 
 ---
 
