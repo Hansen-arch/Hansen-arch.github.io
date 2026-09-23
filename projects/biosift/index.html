@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Portfolio of Reihan Apriandi — Forestry & Spatial Data Science · Remote Sensing · Environmental Analytics">
+        <meta name="description" content="Portfolio of Reihan Apriandi · Forestry & Spatial Data Science · Remote Sensing · Environmental Analytics">
       
       
         <meta name="author" content="Reihan Apriandi">
@@ -29,7 +29,7 @@
     
     
       
-        <title>BioSift - Reihan Apriandi — Forestry & Geospatial</title>
+        <title>BioSift - Reihan Apriandi · Forestry & Geospatial</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#biosift-biodiversity-data-intelligence-platform" class="md-skip">
+        <a href="#biosift" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Reihan Apriandi — Forestry &amp; Geospatial" class="md-header__button md-logo" aria-label="Reihan Apriandi — Forestry & Geospatial" data-md-component="logo">
+    <a href="../.." title="Reihan Apriandi · Forestry &amp; Geospatial" class="md-header__button md-logo" aria-label="Reihan Apriandi · Forestry & Geospatial" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 21v-3H3l5-5H5l5-5H7l5-5 5 5h-3l5 5h-3l5 5h-7v3z"/></svg>
@@ -110,7 +110,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Reihan Apriandi — Forestry & Geospatial
+            Reihan Apriandi · Forestry & Geospatial
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -310,13 +310,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Reihan Apriandi — Forestry &amp; Geospatial" class="md-nav__button md-logo" aria-label="Reihan Apriandi — Forestry & Geospatial" data-md-component="logo">
+    <a href="../.." title="Reihan Apriandi · Forestry &amp; Geospatial" class="md-nav__button md-logo" aria-label="Reihan Apriandi · Forestry & Geospatial" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 21v-3H3l5-5H5l5-5H7l5-5 5 5h-3l5 5h-3l5 5h-7v3z"/></svg>
 
     </a>
-    Reihan Apriandi — Forestry & Geospatial
+    Reihan Apriandi · Forestry & Geospatial
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -581,10 +581,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-findings" class="md-nav__link">
+  <a href="#what-the-app-does" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Findings
+        What the App Does
       
     </span>
   </a>
@@ -782,10 +782,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#key-findings" class="md-nav__link">
+  <a href="#what-the-app-does" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Key Findings
+        What the App Does
       
     </span>
   </a>
@@ -820,41 +820,35 @@
 
 
 
-<!--
-CHECKLIST FOR THIS PAGE (copy this file for each new project):
-- [x] Replace [YOUR PROJECT TITLE] with your project title
-- [x] Replace the hero image with your own (add to docs/assets/images/)
-- [x] Update the Overview section
-- [x] Update the Methods & Tools section
-- [x] Update the Key Findings section
-- [x] Update the Links section
-- [x] Add a card for this project on docs/projects/index.md
-- [x] Add a nav entry in mkdocs.yml
--->
-
-<h1 id="biosift-biodiversity-data-intelligence-platform">BioSift — Biodiversity Data Intelligence Platform</h1>
-<p><img alt="BioSift Overview" src="../../assets/images/biosift-1.png" /></p>
+<h1 id="biosift">BioSift</h1>
+<p><img alt="BioSift overview" src="../../assets/images/biosift-1.png" /></p>
 <h2 id="overview">Overview</h2>
-<p>BioSift is an open-source biodiversity data quality diagnostic tool that enables researchers, conservationists, and data managers to instantly assess the quality, completeness, and reliability of species occurrence data from the Global Biodiversity Information Facility (GBIF) — with zero setup required.</p>
-<p><strong>Study Area:</strong> Global<br />
-<strong>Duration:</strong> 2026<br />
-<strong>Role:</strong> Solo project<br />
-<strong>Status:</strong> Completed — submitted to the 2026 GBIF Ebbe Nielsen Challenge</p>
+<p>BioSift is an open-source web app for checking the quality of species occurrence records from
+the Global Biodiversity Information Facility (GBIF). GBIF aggregates data from thousands of
+publishers, and before a dataset is used for analysis it helps to know how reliable it is:
+whether coordinates are missing or misplaced, whether records are duplicated, and where
+coverage gaps are. BioSift automates those checks. Enter one or more species names, set a
+year range, and the app fetches the records from the GBIF API, scores them, and reports the
+results.</p>
+<p><strong>Study area:</strong> Global
+<strong>Year:</strong> 2026
+<strong>Role:</strong> Solo project
+<strong>Status:</strong> Completed; submitted to the 2026 GBIF Ebbe Nielsen Challenge</p>
 <hr />
 <h2 id="methods-tools">Methods &amp; Tools</h2>
-<p><strong>Data Sources</strong></p>
+<p><strong>Data source</strong></p>
 <ul>
-<li>GBIF.org — Global Biodiversity Information Facility (occurrence records via public API)</li>
+<li>GBIF.org occurrence records, retrieved through the public API</li>
 </ul>
-<p><strong>Processing Steps</strong></p>
+<p><strong>Processing steps</strong></p>
 <ol>
-<li>Fetch species occurrence data from the GBIF API with configurable year range, basis of record, and record limit filters</li>
-<li>Run 10 automated quality checks including missing coordinates, zero coordinates, duplicate records, coordinate-country mismatch, low precision flagging, and temporal gap detection</li>
-<li>Generate spatial diagnostics using interactive point maps, heatmaps, DBSCAN-based outlier detection, and Kernel Density Estimation (KDE) species distribution model preview</li>
-<li>Score each record for reliability (0–100) and assess data fitness for 5 scientific use cases</li>
-<li>Export results as CSV, reliability-scored CSV, and Darwin Core Archive (DwC-A) for standards-compliant reproducibility</li>
+<li>Fetch occurrence data from the GBIF API with filters for year range, basis of record, and record limit</li>
+<li>Run ten automated quality checks: missing coordinates, zero coordinates, duplicate records, coordinate-country mismatch, low coordinate precision, and temporal gap detection</li>
+<li>Produce spatial diagnostics: an interactive point map, heatmaps, DBSCAN-based outlier detection, and a Kernel Density Estimation (KDE) preview of the species distribution</li>
+<li>Score each record for reliability on a 0–100 scale and rate the dataset's fitness for five scientific use cases</li>
+<li>Export results as CSV, reliability-scored CSV, or a Darwin Core Archive (DwC-A)</li>
 </ol>
-<p><strong>Tools Used</strong></p>
+<p><strong>Tools</strong></p>
 <table>
 <thead>
 <tr>
@@ -865,15 +859,15 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <tbody>
 <tr>
 <td>Python + Streamlit</td>
-<td>Web application framework and UI</td>
+<td>Web application</td>
 </tr>
 <tr>
 <td>pygbif</td>
-<td>GBIF API wrapper for occurrence data retrieval</td>
+<td>GBIF API access</td>
 </tr>
 <tr>
 <td>pandas</td>
-<td>Data cleaning, filtering, and manipulation</td>
+<td>Data cleaning and filtering</td>
 </tr>
 <tr>
 <td>folium + plotly</td>
@@ -885,7 +879,7 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 </tr>
 <tr>
 <td>scipy</td>
-<td>Kernel Density Estimation for SDM preview</td>
+<td>Kernel Density Estimation</td>
 </tr>
 </tbody>
 </table>
@@ -895,27 +889,27 @@ CHECKLIST FOR THIS PAGE (copy this file for each new project):
 <p>Interactive point map with clean records (green) and flagged records (red).</p>
 <p><img alt="Occurrence Map" src="../../assets/images/biosift-2.png" /></p>
 <h3 id="temporal-analysis">Temporal Analysis</h3>
-<p>Records per year chart with trend line showing data collection patterns over time.</p>
+<p>Records per year with a trend line, showing how collection effort has changed over time.</p>
 <p><img alt="Temporal Analysis" src="../../assets/images/biosift-3.png" /></p>
 <h3 id="charts-statistics">Charts &amp; Statistics</h3>
 <p>Country observation density, basis of record breakdown, and coordinate precision tiers.</p>
 <p><img alt="Charts and Statistics" src="../../assets/images/biosift-4.png" /></p>
 <h3 id="gap-analysis">Gap Analysis</h3>
-<p>Global data gap map using 10° grid cells with spatial coverage alerts.</p>
+<p>Global data gap map on a 10° grid, with alerts for cells with little or no coverage.</p>
 <p><img alt="Gap Analysis" src="../../assets/images/biosift-5.png" /></p>
 <hr />
-<h2 id="key-findings">Key Findings</h2>
+<h2 id="what-the-app-does">What the App Does</h2>
 <ul>
-<li>Implemented 10 automated quality checks that generate a data health score (0–100%) for any GBIF species dataset in seconds</li>
-<li>Supports batch comparison of up to 5 species side by side with downloadable comparison reports</li>
-<li>Generates publication-ready reproducible methods paragraphs and GBIF dataset citations in APA and BibTeX formats</li>
-<li>Exports Darwin Core Archive (DwC-A) ZIP files compliant with biodiversity data standards</li>
-<li>Deployed as a fully public web app with no installation required, accessible to researchers, educators, and policy makers globally</li>
+<li>Runs ten quality checks and summarizes each dataset with a data health score from 0 to 100%</li>
+<li>Compares up to five species side by side and exports the comparison as a report</li>
+<li>Generates a methods paragraph and GBIF dataset citations in APA or BibTeX format</li>
+<li>Exports cleaned records as CSV or Darwin Core Archive (DwC-A)</li>
+<li>Runs in the browser with no installation; the source code is public</li>
 </ul>
 <hr />
 <h2 id="links">Links</h2>
-<p><a class="md-button" href="https://biosift-gbif.streamlit.app">🔗 Live Demo</a>
-<a class="md-button" href="https://github.com/Hansen-arch/biosift">View Code on GitHub</a>
+<p><a class="md-button" href="https://biosift-gbif.streamlit.app">Live app</a>
+<a class="md-button" href="https://github.com/Hansen-arch/biosift">Source code</a>
 <a class="md-button" href="https://gbif.org/news/3DyM3tK5wgYipqyaHwG2c2">GBIF Ebbe Nielsen Challenge</a></p>
 
 
