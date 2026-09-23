@@ -5,81 +5,94 @@ hide:
 ---
 <!--
 CHECKLIST FOR THIS PAGE:
-- [ ] Replace each [YOUR ...] placeholder with your actual information
-- [ ] Add or remove job entries as needed (copy the format of an existing entry)
-- [ ] Add or remove education entries
-- [ ] Add or remove certifications
+- [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf (Sep 2026)
+- [ ] Re-sync after every CV update — see PORTFOLIO-SOURCES.md at repo root
 -->
 
 # Experience & Education
 
-## Work Experience
+## Professional Experience
 
 <div class="timeline" markdown>
 
 <div class="timeline-entry" markdown>
 
-### Assistant Surveyor — Above-Ground Biomass Carbon Project, PT Hatfield Indonesia
-*Jun 2026 | Indonesia*
+### Site Compliance Supervisor — Ministry of Agriculture of the Republic of Indonesia
+*Aug 2026 – Sep 2026 · Contract · Teluk Meranti, Riau, Indonesia · On-site*
 
-- Assisted in field data collection for an above-ground biomass (AGB) survey as part of a carbon stock assessment project.
-- Conducted forest plot measurements including tree diameter (DBH), height, and species identification to support biomass estimation.
-- Recorded and managed field data using standardized protocols and supported carbon stock workflows with senior surveyors.
-
-</div>
-
-<div class="timeline-entry" markdown>
-
-### Intern — Analyst Assistant, RECOFTC – The Center for People and Forests
-*Jan 2025 – Jun 2025 | Indonesia*
-
-- Verified land cover and land use datasets using Collect Earth Online, ArcGIS, and QGIS for digitization, interpretation checking, and spatial data management.
-- Conducted field validation to compare satellite imagery interpretation with ground conditions.
-- Helped produce validated datasets with approximately 90% accuracy using confusion matrix-based assessment.
+- Monitored excavation activities on-site to ensure work stayed within designated plot boundaries and did not encroach on neighboring areas.
+- Directed field workers on the placement of boundary stakes (*patok*) to mark excavation limits for each plot before work began.
+- Guided excavator operators using the placed stakes to accurately excavate irrigation channels, embankments (*tanggul*), and paddy field areas.
+- Coordinated stake placement across multiple fields to clearly define plot boundaries and prevent excavation errors.
 
 </div>
 
 <div class="timeline-entry" markdown>
 
-### Capstone Project Participant — Student Stress Analysis, Hacktiv8 × IBM SkillsBuild
-*Oct 2025 | Online*
+### Assistant Surveyor — Above-Ground Biomass (AGB) Peatland Study · PT Hatfield Indonesia
+*Jun 2026 – Jul 2026 · Freelance · Riau, Indonesia*
 
-- Cleaned and analyzed student stress data using Python, Pandas, and Matplotlib.
-- Performed exploratory data analysis and created visualizations to identify major stress drivers across subject types and learning environments.
-- Presented results through a visual dashboard report for non-technical stakeholders.
+- Supported AGB field surveys across tropical peatland areas as part of a carbon stock assessment project.
+- Conducted forest plot measurements, including tree diameter (DBH), height, and species identification, to support biomass estimation.
+- Recorded and managed field data using standardized data collection protocols to ensure data quality and consistency.
+- Worked alongside senior surveyors to apply allometric equations and support carbon stock calculation workflows.
+
+</div>
+
+<div class="timeline-entry" markdown>
+
+### Assistant Analyst (Intern) — RECOFTC, The Center for People and Forests
+*Jan 2025 – Jun 2025 · Hybrid · Indonesia*
+
+- Digitized land cover and land use features from satellite imagery using predefined classification protocols with Collect Earth Online, ArcGIS, and QGIS.
+- Verified land cover and land use datasets with approximately 90% accuracy, validated against field reference data using confusion matrix evaluation.
+- Conducted field validation to cross-check satellite imagery interpretations against ground conditions.
+- Coordinated with the project team to maintain methodological consistency across remote sensing and field validation workflows.
+
+</div>
+
+<div class="timeline-entry" markdown>
+
+### Capstone Project Participant — Student Stress Analysis · Hacktiv8 × IBM SkillsBuild
+*Oct 2025 · Online*
+
+- Used Python (Pandas, Matplotlib) for data cleaning, exploratory data analysis (EDA), and visualization.
+- Produced a visual dashboard report identifying key stress drivers across subject types and learning environments, presented to non-technical stakeholders.
 
 </div>
 
 <div class="timeline-entry" markdown>
 
 ### Forest Management Field Training Participant — HPGW, IPB University
-*Jul 2024 | West Java, Indonesia*
+*Jul 2024 · West Java, Indonesia*
 
-- Completed field practicum in community forestry, forest inventory, nursery management, soil conservation, and non-timber forest products.
-- Participated in block area mapping and in-situ conservation activities.
-- Strengthened practical understanding of sustainable forest management through field-based learning.
+- Completed field practicum covering community forestry, forest inventory, nursery management, soil conservation, non-timber forest products, block area mapping, and in-situ conservation methods.
 
 </div>
+
+</div>
+
+---
+
+## Leadership & Organizational Experience
+
+<div class="timeline" markdown>
 
 <div class="timeline-entry" markdown>
 
 ### Expert Staff, Commission 4 — Student Representative Council (DPM), Universitas Riau
-*Jan 2024 – Dec 2024 | Indonesia*
+*Jan 2024 – Dec 2024*
 
 - Contributed to institutional policy discussions and student governance within the campus legislative body.
-- Supported student representation and coordination on organizational matters.
-- Strengthened communication, accountability, and cross-team collaboration skills.
 
 </div>
 
 <div class="timeline-entry" markdown>
 
 ### Expert Staff, Fundraising & Business Division — Forestry Student Club (FSC), Universitas Riau
-*May 2023 – Sep 2024 | Indonesia*
+*May 2023 – Sep 2024*
 
-- Coordinated fundraising activities and business initiatives to support club operations and academic programs.
-- Helped organize resources for student activities and organizational events.
-- Built teamwork and project coordination experience in a student-led organization.
+- Coordinated fundraising activities and managed business initiatives to support club operations and academic programs.
 
 </div>
 
@@ -92,14 +105,37 @@ CHECKLIST FOR THIS PAGE:
 ### Bachelor of Science in Forestry
 **Universitas Riau, Faculty of Agriculture** | *Aug 2022 – Present*
 
-Final-year undergraduate student (9th semester) with a GPA of 3.68 / 4.00, focusing on forestry, spatial analysis, remote sensing, and climate-related applications.
+8th-semester undergraduate student with a GPA of 3.68 / 4.00, focusing on forestry, spatial analysis, remote sensing, and climate-related applications.
 
 ---
 
 ## Certifications
 
-- Advanced QGIS — Spatial Thoughts, 2025
-- GIS for Climate Action — Esri, 2026
-- Visualizing Land Cover and Land Use Change with NASA Satellite Imagery — NASA ARSET, 2026
-- Google Data Analytics — Coursera / Google, 2025
-- Advancing on REDD+ E-Academy — UNITAR / UN Environment, 2024
+### Remote Sensing & GIS
+
+- Advanced QGIS — Spatial Thoughts, Apr–May 2026
+- GIS for Climate Action (6 weeks) — Esri, Mar 2026
+- Visualizing Land Cover and Land Use Change with NASA Satellite Imagery — NASA ARSET, Feb 2026
+- Monitoring Water Quality in Lakes and Coastal Regions Using STREAM — NASA ARSET, Feb 2026
+- Hyperspectral Data for Land and Coastal Systems — NASA ARSET, Jan 2026
+- Advanced NASA Earth Observations and Tools for Active Fire, Smoke, and Post-Fire Monitoring — NASA ARSET, Jan 2026
+- Fundamentals of Remote Sensing — NASA ARSET, Dec 2025
+
+### Environmental & Marine Data
+
+- Marine Data 4 Sustainable Oceans Workshop — Copernicus Marine Service / Mercator Ocean International, Apr 2025
+- Marine Data 4 Asia Workshop — Copernicus Marine Service / Mercator Ocean International, Jun 2025
+
+### Data Analytics & Artificial Intelligence
+
+- Google Data Analytics — Coursera / Google, Oct 2025
+- Oracle Cloud Infrastructure 2025 Certified Data Science Professional — Oracle University, Oct 2025
+- AI Engineer for Data Scientists Associate — DataCamp, Aug 2025
+- Certified Data Analyst Associate — DataCamp, Aug 2025
+- Time Series Analysis — openHPI, Sep 2025
+
+### Forestry & Environment
+
+- Policy Analysis and Forest Governance 101 — RECOFTC, Jun 2025
+- Advancing on REDD+ E-Academy — UNITAR / UN Environment, Oct 2024
+- Population Analysis Series: Tiger Density Analysis — Harimau Kita, Sep 2024
