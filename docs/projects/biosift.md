@@ -1,54 +1,48 @@
-<!--
-CHECKLIST FOR THIS PAGE (copy this file for each new project):
-- [x] Replace [YOUR PROJECT TITLE] with your project title
-- [x] Replace the hero image with your own (add to docs/assets/images/)
-- [x] Update the Overview section
-- [x] Update the Methods & Tools section
-- [x] Update the Key Findings section
-- [x] Update the Links section
-- [x] Add a card for this project on docs/projects/index.md
-- [x] Add a nav entry in mkdocs.yml
--->
+# BioSift
 
-# BioSift — Biodiversity Data Intelligence Platform
-
-![BioSift Overview](../assets/images/biosift-1.png)
+![BioSift overview](../assets/images/biosift-1.png)
 
 ## Overview
 
-BioSift is an open-source biodiversity data quality diagnostic tool that enables researchers, conservationists, and data managers to instantly assess the quality, completeness, and reliability of species occurrence data from the Global Biodiversity Information Facility (GBIF) — with zero setup required.
+BioSift is an open-source web app for checking the quality of species occurrence records from
+the Global Biodiversity Information Facility (GBIF). GBIF aggregates data from thousands of
+publishers, and before a dataset is used for analysis it helps to know how reliable it is:
+whether coordinates are missing or misplaced, whether records are duplicated, and where
+coverage gaps are. BioSift automates those checks. Enter one or more species names, set a
+year range, and the app fetches the records from the GBIF API, scores them, and reports the
+results.
 
-**Study Area:** Global  
-**Duration:** 2026  
-**Role:** Solo project  
-**Status:** Completed — submitted to the 2026 GBIF Ebbe Nielsen Challenge
+**Study area:** Global
+**Year:** 2026
+**Role:** Solo project
+**Status:** Completed; submitted to the 2026 GBIF Ebbe Nielsen Challenge
 
 ---
 
 ## Methods & Tools
 
-**Data Sources**
+**Data source**
 
-- GBIF.org — Global Biodiversity Information Facility (occurrence records via public API)
+- GBIF.org occurrence records, retrieved through the public API
 
-**Processing Steps**
+**Processing steps**
 
-1. Fetch species occurrence data from the GBIF API with configurable year range, basis of record, and record limit filters
-2. Run 10 automated quality checks including missing coordinates, zero coordinates, duplicate records, coordinate-country mismatch, low precision flagging, and temporal gap detection
-3. Generate spatial diagnostics using interactive point maps, heatmaps, DBSCAN-based outlier detection, and Kernel Density Estimation (KDE) species distribution model preview
-4. Score each record for reliability (0–100) and assess data fitness for 5 scientific use cases
-5. Export results as CSV, reliability-scored CSV, and Darwin Core Archive (DwC-A) for standards-compliant reproducibility
+1. Fetch occurrence data from the GBIF API with filters for year range, basis of record, and record limit
+2. Run ten automated quality checks: missing coordinates, zero coordinates, duplicate records, coordinate-country mismatch, low coordinate precision, and temporal gap detection
+3. Produce spatial diagnostics: an interactive point map, heatmaps, DBSCAN-based outlier detection, and a Kernel Density Estimation (KDE) preview of the species distribution
+4. Score each record for reliability on a 0–100 scale and rate the dataset's fitness for five scientific use cases
+5. Export results as CSV, reliability-scored CSV, or a Darwin Core Archive (DwC-A)
 
-**Tools Used**
+**Tools**
 
 | Tool | Purpose |
 |------|---------|
-| Python + Streamlit | Web application framework and UI |
-| pygbif | GBIF API wrapper for occurrence data retrieval |
-| pandas | Data cleaning, filtering, and manipulation |
+| Python + Streamlit | Web application |
+| pygbif | GBIF API access |
+| pandas | Data cleaning and filtering |
 | folium + plotly | Interactive maps and charts |
 | scikit-learn | DBSCAN spatial outlier detection |
-| scipy | Kernel Density Estimation for SDM preview |
+| scipy | Kernel Density Estimation |
 
 ---
 
@@ -60,7 +54,7 @@ Interactive point map with clean records (green) and flagged records (red).
 ![Occurrence Map](../assets/images/biosift-2.png)
 
 ### Temporal Analysis
-Records per year chart with trend line showing data collection patterns over time.
+Records per year with a trend line, showing how collection effort has changed over time.
 
 ![Temporal Analysis](../assets/images/biosift-3.png)
 
@@ -70,24 +64,24 @@ Country observation density, basis of record breakdown, and coordinate precision
 ![Charts and Statistics](../assets/images/biosift-4.png)
 
 ### Gap Analysis
-Global data gap map using 10° grid cells with spatial coverage alerts.
+Global data gap map on a 10° grid, with alerts for cells with little or no coverage.
 
 ![Gap Analysis](../assets/images/biosift-5.png)
 
 ---
 
-## Key Findings
+## What the App Does
 
-- Implemented 10 automated quality checks that generate a data health score (0–100%) for any GBIF species dataset in seconds
-- Supports batch comparison of up to 5 species side by side with downloadable comparison reports
-- Generates publication-ready reproducible methods paragraphs and GBIF dataset citations in APA and BibTeX formats
-- Exports Darwin Core Archive (DwC-A) ZIP files compliant with biodiversity data standards
-- Deployed as a fully public web app with no installation required, accessible to researchers, educators, and policy makers globally
+- Runs ten quality checks and summarizes each dataset with a data health score from 0 to 100%
+- Compares up to five species side by side and exports the comparison as a report
+- Generates a methods paragraph and GBIF dataset citations in APA or BibTeX format
+- Exports cleaned records as CSV or Darwin Core Archive (DwC-A)
+- Runs in the browser with no installation; the source code is public
 
 ---
 
 ## Links
 
-[🔗 Live Demo](https://biosift-gbif.streamlit.app){ .md-button }
-[View Code on GitHub](https://github.com/Hansen-arch/biosift){ .md-button }
+[Live app](https://biosift-gbif.streamlit.app){ .md-button }
+[Source code](https://github.com/Hansen-arch/biosift){ .md-button }
 [GBIF Ebbe Nielsen Challenge](https://gbif.org/news/3DyM3tK5wgYipqyaHwG2c2){ .md-button }
