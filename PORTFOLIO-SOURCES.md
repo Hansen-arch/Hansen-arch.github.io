@@ -50,11 +50,11 @@ Reference tutorial: <https://courses.spatialthoughts.com/geospatial-portfolio-wo
 - Cards: flat white/dark surfaces with 2px top border, hover = border highlight
   instead of heavy lift/shadow
 - Timeline: smaller dots, thinner rail, compact entries with muted date line
-- Skill levels stated honestly per CV: QGIS Advanced, Python Intermediate, ML Basic, UAV Basic
-- Skills cards (2026-09-23): reworded to read less templated — four cards, no self-assessed
-  level tags; each claim anchored to a named certificate (Spatial Thoughts, NASA ARSET, Esri,
-  Google, Oracle, DataCamp, openHPI, RECOFTC, UNITAR, Copernicus, Harimau Kita) with a link
-  to the full list on experience.md#certifications
+- Skills grid (2026-09-23): four cards, each bullet a capability with the certification or
+  project that proves it in parentheses (NASA ARSET, Spatial Thoughts, Esri, Copernicus Marine,
+  RECOFTC, UNITAR, Harimau Kita, Google, Oracle, DataCamp, openHPI). Self-assessed skill levels
+  (e.g. ML "Basic") are deliberately excluded from the site; if the CV keeps them, the site
+  still does not repeat them. Full list on experience.md#certifications
 - `mkdocs.yml`: `site_description` matches the CV tagline; theme/font config unchanged
 
 ## Verify before publishing
