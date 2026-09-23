@@ -1,3 +1,14 @@
+---
+description: "Contact Reihan Apriandi for entry-level GIS and remote sensing roles, collaborations, and field projects. Based in Pekanbaru, Riau, Indonesia."
+keywords:
+  - contact Reihan Apriandi
+  - GIS analyst hire
+  - remote sensing Indonesia
+hide:
+  - toc
+  - navigation
+---
+
 <!--
 CHECKLIST FOR THIS PAGE:
 - [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf (Sep 2026)

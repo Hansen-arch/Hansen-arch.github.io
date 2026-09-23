@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Reihan Apriandi",
+  "jobTitle": "Forestry and Spatial Data Science",
+  "description": "Forestry undergraduate at Universitas Riau working on GIS analysis, remote sensing, and forest field surveys.",
+  "url": "{{ config.site_url }}",
+  "image": "{{ config.site_url }}assets/images/profile.png",
+  "email": "mailto:apriandireihan@gmail.com",
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universitas Riau"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Pekanbaru",
+    "addressRegion": "Riau",
+    "addressCountry": "ID"
+  },
+  "knowsAbout": [
+    "Geographic Information Systems",
+    "Remote Sensing",
+    "Forestry",
+    "Google Earth Engine",
+    "QGIS",
+    "Forest Monitoring",
+    "Above-Ground Biomass",
+    "Carbon Stock Assessment",
+    "Land Cover Classification"
+  ],
+  "sameAs": [
+    "https://github.com/Hansen-arch",
+    "https://www.linkedin.com/in/reihan-apriandi-700845266/"
+  ]
+}
+</script>
+{% endblock %}

@@ -1,3 +1,13 @@
+---
+description: "BioSift is an open-source web app for checking the quality of GBIF species occurrence records: ten automated quality checks, spatial outlier detection, and Darwin Core Archive export."
+keywords:
+  - BioSift
+  - GBIF
+  - biodiversity data quality
+  - Darwin Core Archive
+  - species occurrence data
+---
+
 # BioSift
 
 ![BioSift overview](../assets/images/biosift-1.png)

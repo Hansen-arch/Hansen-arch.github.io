@@ -1,3 +1,17 @@
+---
+description: "Work experience in site compliance supervision, above-ground biomass peatland surveys, and land cover validation at RECOFTC, with certifications in QGIS, remote sensing, and data analytics."
+keywords:
+  - Reihan Apriandi experience
+  - forestry field work
+  - above-ground biomass survey
+  - land cover validation
+  - RECOFTC
+  - NASA ARSET
+hide:
+  - toc
+  - navigation
+---
+
 <!--
 CHECKLIST FOR THIS PAGE:
 - [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf (Sep 2026)
