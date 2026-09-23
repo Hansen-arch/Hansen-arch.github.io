@@ -7,8 +7,8 @@ hide:
 <div class="hero">
   <img src="assets/images/profile.png" alt="Reihan Apriandi" class="profile-photo">
   <h1>Reihan Apriandi</h1>
-  <p><strong>Forestry & Spatial Data Science</strong></p>
-  <p><em>Turning field data into spatial insights · GIS · Remote Sensing · Python</em></p>
+  <p><strong>Forestry &amp; Spatial Data Science</strong></p>
+  <p><em>Remote Sensing · Environmental Analytics · Evidence-Based Conservation</em></p>
 </div>
 
 ---
@@ -19,14 +19,14 @@ hide:
 <div class="about-text" markdown>
 
 I am a final-year Forestry undergraduate at Universitas Riau with field and professional
-experience in above-ground biomass surveys, land cover analysis, and carbon project support.
-I apply GIS, remote sensing, and Python-based analytics to problems in sustainable forest
-management, land use mapping, and climate-related research — using tools such as QGIS,
-Google Earth Engine, and RStudio.
+experience in land compliance supervision, above-ground biomass surveys, land cover analysis,
+and carbon project support. I integrate forestry expertise with spatial data science — applying
+GIS, remote sensing, and Python-based analytics to evidence-based conservation, sustainable
+forest management, and climate-related research.
 
 I am currently seeking entry-level opportunities in GIS analysis, remote sensing,
-or environmental data roles where I can contribute to evidence-based conservation
-and forest monitoring work.
+or environmental data roles where I can contribute to forest monitoring and
+conservation work.
 
 </div>
 <div class="about-image">
@@ -49,53 +49,47 @@ and forest monitoring work.
 
     ---
 
-    - QGIS, ArcGIS Pro, Google Earth Engine
-    - GDAL / OGR, GRASS GIS, GeoDa
-    - Multispectral and SAR image analysis
-    - Accuracy Assessment — Confusion Matrix (Target ≥ 90%)
+    - ArcGIS, QGIS (Advanced), Google Earth Engine
+    - GeoDa, GRASS GIS
+    - Accuracy assessment — confusion matrix (target ≥ 90%)
 
--   :material-code-braces:{ .lg .middle } **Programming**
-
-    ---
-
-    - Python — GeoPandas, Pandas, NumPy, Matplotlib
-    - R — sf, terra, ggplot2, RStudio
-    - JavaScript — Google Earth Engine API
-    - SQL, PostgreSQL + PostGIS
-
--   :material-star-four-points:{ .lg .middle } **Machine Learning & GeoAI**
+-   :material-fence:{ .lg .middle } **Land & Site Compliance**
 
     ---
 
-    - Supervised classification — Random Forest, XGBoost
-    - scikit-learn for spatial data workflows
-    - Object detection in satellite imagery
-    - Exploratory Data Analysis (EDA)
+    - Boundary verification & site supervision
+    - Encroachment prevention
+    - Permit compliance monitoring
 
--   :material-earth:{ .lg .middle } **Web Mapping & Dashboards**
+-   :material-code-braces:{ .lg .middle } **Programming & Data Analysis**
 
     ---
 
-    - Folium, Leaflet.js, MapLibre GL JS
+    - Python — Pandas, Matplotlib (Intermediate)
+    - R / RStudio, SQL
+    - Exploratory data analysis & data visualization
+
+-   :material-map-marker-radius:{ .lg .middle } **Web Mapping & Dashboards**
+
+    ---
+
+    - Leaflet.js, Folium
     - Streamlit for data-driven web apps
-    - Data formats — GeoTIFF, GeoJSON, NetCDF, GeoParquet
+
+-   :material-brain:{ .lg .middle } **Machine Learning & UAV**
+
+    ---
+
+    - Supervised classification with scikit-learn (Basic)
+    - Drone photogrammetry — Agisoft Metashape, OpenDroneMap (Basic)
 
 -   :material-tree:{ .lg .middle } **Forestry & Field Skills**
 
     ---
 
-    - Above-Ground Biomass (AGB) survey and carbon stock assessment
-    - Forest plot measurement — DBH, height, species ID
-    - Community forestry and forest inventory
-    - REDD+ and forest carbon methodologies
-
--   :material-airplane:{ .lg .middle } **Drone / UAV Processing**
-
-    ---
-
-    - Photogrammetry — Agisoft Metashape, OpenDroneMap
-    - Point cloud processing — CloudCompare, PDAL
-    - Mission planning and flight operations
+    - AGB & carbon stock surveys — DBH, height, species ID
+    - Allometric equations, ground-truth validation
+    - Technical report writing · English (B1)
 
 </div>
 
