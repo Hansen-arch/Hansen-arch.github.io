@@ -3,12 +3,13 @@
 # ============================================================
 
 site_name: "Reihan Apriandi · Forestry & Geospatial"
-site_description: "Portfolio of Reihan Apriandi · Forestry & Spatial Data Science · Remote Sensing · Environmental Analytics"
+site_description: "Portfolio of Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, and forest field surveys."
 site_author: "Reihan Apriandi"
 site_url: "https://hansen-arch.github.io/"
 
 theme:
   name: material
+  custom_dir: overrides
   icon:
     logo: material/pine-tree
   palette:
@@ -66,6 +67,10 @@ plugins:
   - search
   - meta
   - mkdocs-jupyter
+  - social:
+      cards: true
+      cards_layout_options:
+        font_family: Inter
 
 nav:
   - Home: index.md
@@ -74,3 +79,6 @@ nav:
     - "BioSift": projects/biosift.md
   - Experience: experience.md
   - Contact: contact.md
+
+not_in_nav: |
+  robots.txt

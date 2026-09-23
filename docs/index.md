@@ -1,4 +1,13 @@
 ---
+description: "Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, and forest field surveys in Indonesia. Open to entry-level GIS and remote sensing roles."
+keywords:
+  - Reihan Apriandi
+  - forestry portfolio
+  - GIS analyst Indonesia
+  - remote sensing
+  - Google Earth Engine
+  - forest monitoring
+  - QGIS
 hide:
   - toc
   - navigation

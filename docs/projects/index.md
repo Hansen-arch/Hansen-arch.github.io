@@ -1,4 +1,10 @@
 ---
+description: "Selected geospatial and data science projects: biodiversity data quality tooling for GBIF, land cover analysis, and Python-based spatial workflows."
+keywords:
+  - geospatial projects
+  - GBIF
+  - biodiversity data
+  - Python GIS projects
 hide:
   - toc
   - navigation
