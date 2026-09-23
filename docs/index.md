@@ -40,44 +40,47 @@ preferably connected to forest monitoring.
 
 ---
 
-## Skills & Certifications
+## Skills
 
 <div class="grid cards" markdown>
 
--   :material-map:{ .lg .middle } **GIS & Remote Sensing**
+-   :material-satellite:{ .lg .middle } **Remote Sensing**
 
-    - QGIS, ArcGIS, GeoDa, GRASS GIS; Advanced QGIS certificate from Spatial Thoughts (2026)
-    - Google Earth Engine for land cover and change analysis
-    - NASA ARSET trainings on land cover change, active fire and smoke monitoring, water quality, and hyperspectral data
-    - Accuracy assessment with confusion matrices; at RECOFTC I validated land cover datasets to about 90% against field reference data
-    - Esri GIS for Climate Action course (2026)
+    - Land cover and land use change analysis from satellite imagery (NASA ARSET)
+    - Active fire, smoke, and post-fire monitoring (NASA ARSET)
+    - Water quality monitoring for lakes and coastal regions (NASA ARSET)
+    - Hyperspectral imagery for land and coastal systems (NASA ARSET)
+    - Marine and ocean data analysis (Copernicus Marine Service)
+    - Accuracy assessment with confusion matrices (RECOFTC land cover validation)
+
+-   :material-map:{ .lg .middle } **GIS & Mapping**
+
+    - QGIS for cartography and spatial analysis (Advanced QGIS, Spatial Thoughts)
+    - ArcGIS for climate-focused spatial analysis (Esri GIS for Climate Action)
+    - Google Earth Engine for land cover monitoring
+    - Web maps with Leaflet.js and Folium; dashboards with Streamlit
+    - UAV photogrammetry with Agisoft Metashape and OpenDroneMap
 
 -   :material-tree:{ .lg .middle } **Forestry & Field Work**
 
-    - AGB and carbon stock surveys: DBH, height, and species identification (peatland study with PT Hatfield)
+    - AGB and carbon stock surveys: DBH, height, and species identification (peatland study, PT Hatfield)
     - Allometric equations and ground-truth validation
     - Plot boundary staking and excavation compliance supervision
-    - Forest governance and REDD+ certificates from RECOFTC and UNITAR/UN Environment
+    - Forest policy and governance analysis (RECOFTC)
+    - REDD+ and forest carbon frameworks (UNITAR / UN Environment)
+    - Wildlife population density estimation (Harimau Kita tiger analysis)
 
--   :material-chart-line:{ .lg .middle } **Data Analysis & Programming**
+-   :material-chart-line:{ .lg .middle } **Data Analysis & Machine Learning**
 
-    - Python (Pandas, Matplotlib), R, and SQL for exploratory analysis and visualization
-    - Supervised classification with scikit-learn
-    - Google Data Analytics Professional Certificate (2025)
-    - Oracle Cloud Infrastructure 2025 Certified Data Science Professional
-    - DataCamp: Certified Data Analyst Associate and AI Engineer for Data Scientists Associate
-    - Time Series Analysis (openHPI, 2025)
-
--   :material-web:{ .lg .middle } **Applications & Tools**
-
-    - Web maps and dashboards with Leaflet.js, Folium, and Streamlit
-    - Copernicus Marine Service workshops on marine and ocean data (2025)
-    - UAV photogrammetry with Agisoft Metashape and OpenDroneMap
-    - Tiger density population analysis training (Harimau Kita, 2024)
+    - Data cleaning, analysis, and visualization (Google Data Analytics)
+    - Python with Pandas and Matplotlib; R and SQL
+    - Time series analysis and forecasting (openHPI)
+    - Supervised classification with scikit-learn (Oracle Cloud Data Science Professional, DataCamp AI Engineer Associate)
+    - Statistical data analysis (DataCamp Certified Data Analyst Associate)
 
 </div>
 
-The full list of certifications, with issuers and dates, is on the [Experience page](experience.md#certifications).
+These skills come from named certifications and field projects. The complete list of certifications, with issuers and dates, is on the [Experience page](experience.md#certifications).
 
 ---
 
