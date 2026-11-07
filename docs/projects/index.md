@@ -1,9 +1,11 @@
 ---
-description: "Selected geospatial and data science projects: biodiversity data quality tooling for GBIF, land cover analysis, and Python-based spatial workflows."
+description: "Selected geospatial and data science projects: biodiversity data quality tooling for GBIF, satellite observation coverage for flood monitoring, and Python-based spatial workflows."
 keywords:
   - geospatial projects
   - GBIF
   - biodiversity data
+  - flood monitoring
+  - Sentinel-1
   - Python GIS projects
 hide:
   - toc
@@ -26,6 +28,18 @@ Web app that checks the quality of GBIF species occurrence records. Ten automate
 `Python` `Streamlit` `GBIF` `scikit-learn` `folium`
 
 [View Project](biosift.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
+![](../assets/images/flood-1.png)
+
+**[Flood Coverage](flood-coverage.md)**
+
+Measures how often a Sentinel-1 pass lands inside a flood's rise, across four river basins in Europe and Indonesia, and whether a GloFAS forecast peak can actually be checked. One year of real acquisition metadata, computed locally.
+
+`Python` `STAC` `Sentinel-1` `GloFAS` `JavaScript`
+
+[View Project](flood-coverage.md){ .md-button }
 </div>
 
 </div>

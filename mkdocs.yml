@@ -3,7 +3,7 @@
 # ============================================================
 
 site_name: "Reihan Apriandi · Forestry & Geospatial"
-site_description: "Portfolio of Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, and forest field surveys."
+site_description: "Portfolio of Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, satellite observation coverage, and forest field surveys."
 site_author: "Reihan Apriandi"
 site_url: "https://hansen-arch.github.io/"
 
@@ -77,6 +77,7 @@ nav:
   - Projects:
     - "All Projects": projects/index.md
     - "BioSift": projects/biosift.md
+    - "Flood Coverage": projects/flood-coverage.md
   - Experience: experience.md
   - Contact: contact.md
 

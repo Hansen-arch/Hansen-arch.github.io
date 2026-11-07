@@ -1,11 +1,13 @@
 ---
-description: "Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, and forest field surveys in Indonesia. Open to entry-level GIS and remote sensing roles."
+description: "Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, satellite observation coverage, and forest field surveys in Indonesia. Open to entry-level GIS and remote sensing roles."
 keywords:
   - Reihan Apriandi
   - forestry portfolio
   - GIS analyst Indonesia
   - remote sensing
   - Google Earth Engine
+  - Sentinel-1
+  - flood monitoring
   - forest monitoring
   - QGIS
 hide:
@@ -32,6 +34,10 @@ has moved between the field and the desk: supervising excavation sites for bound
 in Riau, measuring forest plots for an above-ground biomass study on peatland, and digitizing
 land cover data from satellite imagery at RECOFTC. On the analysis side I use QGIS, ArcGIS,
 Google Earth Engine, and Python (Pandas, Matplotlib).
+
+Alongside those, I built [Flood Coverage](projects/flood-coverage.md), an independent analysis
+of whether a satellite actually observes a flood while it is rising, measured across four river
+basins in Europe and Indonesia from one year of Sentinel-1 acquisition metadata.
 
 I am looking for entry-level roles in GIS analysis, remote sensing, or environmental data work,
 preferably connected to forest monitoring.
@@ -61,6 +67,7 @@ preferably connected to forest monitoring.
     - Hyperspectral imagery for land and coastal systems (NASA ARSET)
     - Marine and ocean data analysis (Copernicus Marine Service)
     - Accuracy assessment with confusion matrices (RECOFTC land cover validation)
+    - Satellite acquisition coverage: revisit and gap analysis from STAC metadata (Flood Coverage)
 
 -   :material-map:{ .lg .middle } **GIS & Mapping**
 
@@ -86,10 +93,11 @@ preferably connected to forest monitoring.
     - Time series analysis and forecasting (openHPI)
     - Supervised classification with scikit-learn (Oracle Cloud Data Science Professional, DataCamp AI Engineer Associate)
     - Statistical data analysis (DataCamp Certified Data Analyst Associate)
+    - Reproducible pipelines with no external dependencies; API ingestion from STAC and Open-Meteo (Flood Coverage)
 
 </div>
 
-These skills come from named certifications and field projects. The complete list of certifications, with issuers and dates, is on the [Experience page](experience.md#certifications).
+These skills come from named certifications, field projects, and published work. The complete list of certifications, with issuers and dates, is on the [Experience page](experience.md#certifications).
 
 ---
 
