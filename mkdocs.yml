@@ -81,6 +81,8 @@ nav:
     - "Palm Tree Counting": projects/palm-tree-counting.md
     - "BioSift": projects/biosift.md
     - "Flood Coverage": projects/flood-coverage.md
+    - "Urban Heat Island": projects/urban-heat-island.md
+    - "Urban Green Space Change": projects/urban-green-space.md
   - Experience: experience.md
   - Contact: contact.md
 

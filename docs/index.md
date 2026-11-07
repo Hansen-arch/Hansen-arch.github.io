@@ -61,7 +61,10 @@ Most of what is published here started as a question a map could not answer. I c
 [Flood Coverage](projects/flood-coverage.md) to measure how rarely a satellite looks at a
 flood while it is rising, from a year of acquisition metadata. I built
 [BioSift](projects/biosift.md) because a species record is only as useful as its
-coordinates.
+coordinates. Closer to home, I mapped where Pekanbaru stores heat
+([Urban Heat Island](projects/urban-heat-island.md)) and where it lost vegetation
+([Urban Green Space Change](projects/urban-green-space.md)), because those two claims
+are usually made in the same breath without being measured separately.
 
 I am looking for entry-level roles in GIS analysis, remote sensing, or environmental data
 work, preferably connected to forest monitoring.
