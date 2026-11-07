@@ -32,8 +32,8 @@ theme:
     - content.code.copy
     - navigation.footer
   font:
-    text: Inter
-    code: Roboto Mono
+    text: IBM Plex Sans
+    code: IBM Plex Mono
 
 extra_css:
   - assets/css/extra.css
@@ -70,7 +70,9 @@ plugins:
   - social:
       cards: true
       cards_layout_options:
-        font_family: Inter
+        background_color: "#0d0f10"
+        color: "#e8eae9"
+        font_family: IBM Plex Sans
 
 nav:
   - Home: index.md

@@ -10,7 +10,9 @@ keywords:
 
 # BioSift
 
-![BioSift overview](../assets/images/biosift-1.png)
+![BioSift overview](../assets/images/biosift-1.png){ .plate }
+
+<p class="plate-caption">Plate 01 · quality report and map view · GBIF occurrence records scored against ten checks</p>
 
 ## Overview
 

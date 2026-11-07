@@ -11,7 +11,8 @@ Last synced: 2026-11-07
 
 | Website page | Source file (single source of truth) | Last synced |
 |---|---|---|
-| `docs/index.md` (hero, about, skills) | `~/Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated Nov 2026.pdf` — Profile, Skills sections | 2026-11-07 |
+| `docs/index.md` (masthead, about, capabilities) | `~/Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated Nov 2026.pdf` — Profile, Skills sections | 2026-11-07 |
+| `docs/index.md` (readout: location, study, status) | same PDF header and objective line; Pekanbaru coordinates are public geography (0.5071 N, 101.4478 E) | 2026-11-07 |
 | `docs/experience.md` (all work + org experience) | same PDF — Professional Experience, Leadership & Organizational Experience | 2026-11-07 |
 | `docs/experience.md` (education) | same PDF — Education (8th semester, GPA 3.68/4.00) | 2026-11-07 |
 | `docs/experience.md` (certifications) | same PDF — Certifications (4 categories) | 2026-11-07 |
@@ -52,20 +53,29 @@ Reference tutorial: <https://courses.spatialthoughts.com/geospatial-portfolio-wo
 
 ---
 
-## Style decisions (professional restyle, 2026-09-22)
+## Design direction (quiet instrument panel, 2026-11-07)
 
-- Palette: muted forest/earth tones (`#22332b` dark, `#43695a` accent) — same variable
-  names as before, both light/slate schemes supported
-- Typography: Inter only (dropped Merriweather); uppercase letter-spaced tagline in hero
-- Cards: flat white/dark surfaces with 2px top border, hover = border highlight
-  instead of heavy lift/shadow
-- Timeline: smaller dots, thinner rail, compact entries with muted date line
-- Skills grid (2026-09-23): four cards, each bullet a capability with the certification or
-  project that proves it in parentheses (NASA ARSET, Spatial Thoughts, Esri, Copernicus Marine,
-  RECOFTC, UNITAR, Harimau Kita, Google, Oracle, DataCamp, openHPI). Self-assessed skill levels
-  (e.g. ML "Basic") are deliberately excluded from the site; if the CV keeps them, the site
-  still does not repeat them. Full list on experience.md#certifications
-- `mkdocs.yml`: `site_description` matches the CV tagline; theme/font config unchanged
+Supersedes the 2026-09-22 forest-tone restyle. The full direction, palette values and the
+reason for each choice live in `DESIGN.md` at the repo root.
+
+- Palette: two neutrals (graphite ground, near-neutral ink) plus one sodium amber accent.
+  No gradient, no glow, no shadow, no radius. Amber appears only as the plate index, the
+  active tab underline, the primary button and the focus ring.
+- Typography: IBM Plex Sans with IBM Plex Mono for data (readouts, plate captions, table
+  figures, mono labels). Weights 400/500/600 are loaded explicitly in `overrides/main.html`.
+- Structure: hairline rules instead of cards. Home opens with an asymmetric masthead and a
+  four-line readout of checkable facts, then numbered panels (01 About, 02 Capabilities,
+  03 Connect). Capabilities are a datasheet, not four cards.
+- Projects: rows with a mono index, summary, stack line and one linked plate. Plates keep
+  their real colour and lose it only on hover, so the accent stays the only warm colour.
+- Project pages: the opening image is a plate with a mono caption naming the block and
+  ground resolution, because that caption is provenance rather than decoration.
+- Experience: a log, one entry per hairline, with the date line in mono.
+- Capability bullets still name the certification or project that proves each line (NASA
+  ARSET, Spatial Thoughts, Esri, Copernicus Marine, RECOFTC, UNITAR, Harimau Kita, Google,
+  Oracle, DataCamp, openHPI). Self-assessed skill levels stay excluded from the site.
+- `mkdocs.yml`: `site_description` matches the CV tagline; fonts and social card colours set
+  to match the palette
 
 ## SEO setup (2026-09-23)
 

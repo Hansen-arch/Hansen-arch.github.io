@@ -13,7 +13,9 @@ keywords:
 
 # Palm Tree Counting
 
-![Palm detections over the merged orthomosaic](../assets/images/palm-1.jpg)
+![Palm detections over the merged orthomosaic](../assets/images/palm-1.jpg){ .plate }
+
+<p class="plate-caption">Plate 01 · merged mosaic, block 47N · 0.155 m ground pixel</p>
 
 ## Overview
 

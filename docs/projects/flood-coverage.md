@@ -12,7 +12,9 @@ keywords:
 
 # Flood Coverage
 
-![Flood Coverage overview](../assets/images/flood-1.png)
+![Flood Coverage overview](../assets/images/flood-1.png){ .plate }
+
+<p class="plate-caption">Plate 01 · coverage figures for the four basins · one year of Sentinel-1 acquisition metadata</p>
 
 ## Overview
 
