@@ -11,13 +11,13 @@ Last synced: 2026-11-07
 
 | Website page | Source file (single source of truth) | Last synced |
 |---|---|---|
-| `docs/index.md` (masthead, about, capabilities) | `~/Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated Nov 2026.pdf` — Profile, Skills sections | 2026-11-07 |
+| `docs/index.md` (masthead, about, capabilities) | `~/Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated Nov 2026.pdf`, Profile, Skills sections | 2026-11-07 |
 | `docs/index.md` (readout: location, study, status) | same PDF header and objective line; Pekanbaru coordinates are public geography (0.5071 N, 101.4478 E) | 2026-11-07 |
-| `docs/experience.md` (all work + org experience) | same PDF — Professional Experience, Leadership & Organizational Experience | 2026-11-07 |
-| `docs/experience.md` (education) | same PDF — Education (8th semester, GPA 3.68/4.00) | 2026-11-07 |
-| `docs/experience.md` (certifications) | same PDF — Certifications (4 categories) | 2026-11-07 |
-| `docs/contact.md` (location, phone, email) | same PDF — header line | 2026-11-07 |
-| `docs/assets/reihan-CV.pdf` (Download CV button) | same PDF — copied verbatim | 2026-11-07 |
+| `docs/experience.md` (all work + org experience) | same PDF, Professional Experience, Leadership & Organizational Experience | 2026-11-07 |
+| `docs/experience.md` (education) | same PDF, Education (8th semester, GPA 3.68/4.00) | 2026-11-07 |
+| `docs/experience.md` (certifications) | same PDF, Certifications (4 categories) | 2026-11-07 |
+| `docs/contact.md` (location, phone, email) | same PDF, header line | 2026-11-07 |
+| `docs/assets/reihan-CV.pdf` (Download CV button) | same PDF, copied verbatim | 2026-11-07 |
 | `docs/projects/biosift.md` | GBIF Ebbe Nielsen Challenge submission + biosift repo | 2026 (unchanged) |
 | `docs/projects/flood-coverage.md` | flood-coverage repo: README and `docs/03-method.md` | 2026-11-07 |
 | `docs/projects/palm-tree-counting.md` | palm-tree-counting-yolo repo: README, `docs/README.md`, `docs/REPORT.md`, `docs/ringkasan_*.json` | 2026-11-07 |
@@ -26,7 +26,7 @@ Last synced: 2026-11-07
 course project, not portfolio work. Do not add a page for it.
 
 **Excluded by decision (2026-09-22):** the GSK Deforestation thesis project. The thesis is
-not complete — do not add a project page for it until the thesis itself is finished. The
+not complete, do not add a project page for it until the thesis itself is finished. The
 working repo lives at `~/Thesis_GSK_Deforestation` (GEE land-cover pipeline). When it is
 ready, copy the checklist from the top of `docs/projects/biosift.md`.
 
