@@ -76,6 +76,7 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
+    - "Palm Tree Counting": projects/palm-tree-counting.md
     - "BioSift": projects/biosift.md
     - "Flood Coverage": projects/flood-coverage.md
   - Experience: experience.md
