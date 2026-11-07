@@ -48,8 +48,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Sans";--md-code-font:"IBM Plex Mono"}</style>
       
     
     
@@ -61,6 +61,8 @@
 
     
     
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -131,7 +133,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#about-me" class="md-skip">
+        <a href="#reihan-apriandi" class="md-skip">
           Skip to content
         </a>
       
@@ -385,6 +387,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -427,6 +431,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -438,7 +444,7 @@
   <a href="#about-me" class="md-nav__link">
     <span class="md-ellipsis">
       
-        About Me
+        About me
       
     </span>
   </a>
@@ -446,10 +452,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#skills" class="md-nav__link">
+  <a href="#capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Skills
+        Capabilities
       
     </span>
   </a>
@@ -717,6 +723,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -728,7 +736,7 @@
   <a href="#about-me" class="md-nav__link">
     <span class="md-ellipsis">
       
-        About Me
+        About me
       
     </span>
   </a>
@@ -736,10 +744,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#skills" class="md-nav__link">
+  <a href="#capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Skills
+        Capabilities
       
     </span>
   </a>
@@ -776,53 +784,74 @@
 
 
 
-<div class="hero">
-  <img src="assets/images/profile.png" alt="Reihan Apriandi" class="profile-photo">
-  <h1>Reihan Apriandi</h1>
-  <p><strong>Forestry &amp; Spatial Data Science</strong></p>
-  <p><em>Remote Sensing · Environmental Analytics</em></p>
+<div class="masthead">
+<div class="masthead-main">
+<h1 id="reihan-apriandi">Reihan Apriandi</h1>
+<p class="masthead-lede">Forestry undergraduate at Universitas Riau, working between the field and the desk: satellite land cover, forest carbon plots, and the gaps in satellite observation measured from real acquisition metadata.</p>
 </div>
-
-<hr />
-<h2 id="about-me">About Me</h2>
-<div class="about-section">
+<dl class="readout">
+<dt>based</dt>
+<dd>Pekanbaru, Riau, Indonesia<span class="coord">0.5071 N, 101.4478 E</span></dd>
+<dt>study</dt>
+<dd>BSc Forestry, Universitas Riau, final year</dd>
+<dt>focus</dt>
+<dd>GIS analysis, remote sensing, forest monitoring</dd>
+<dt>status</dt>
+<dd>Open to entry-level GIS and remote sensing roles</dd>
+</dl>
+</div>
+<p><a class="md-button md-button--primary" href="assets/reihan-CV.pdf">Download CV</a>
+<a class="md-button" href="projects/">See the projects</a></p>
+<div class="panel">
+<h2 id="about-me">About me</h2>
+<div class="about">
 <div class="about-text">
-<p>I am a forestry undergraduate at Universitas Riau, currently in my final year. My work so far
-has moved between the field and the desk: supervising excavation sites for boundary compliance
-in Riau, measuring forest plots for an above-ground biomass study on peatland, and digitizing
-land cover data from satellite imagery at RECOFTC. On the analysis side I use QGIS, ArcGIS,
-Google Earth Engine, and Python (Pandas, Matplotlib).</p>
-<p>Alongside those, I built <a href="projects/flood-coverage/">Flood Coverage</a>, an independent analysis
-of whether a satellite actually observes a flood while it is rising, measured across four river
-basins in Europe and Indonesia from one year of Sentinel-1 acquisition metadata.</p>
-<p>I am looking for entry-level roles in GIS analysis, remote sensing, or environmental data work,
-preferably connected to forest monitoring.</p>
+<p>I am a forestry undergraduate at Universitas Riau, in my final year. My work has moved
+between the field and the desk: supervising excavation for boundary compliance in Riau,
+measuring forest plots for an above-ground biomass study on peatland, and digitizing land
+cover from satellite imagery at RECOFTC. On the analysis side I use QGIS, ArcGIS, Google
+Earth Engine, and Python with Pandas and Matplotlib.</p>
+<p>Most of what is published here started as a question a map could not answer. I counted
+24,966 oil palms from UAV orthophotos to see whether a detector can replace a hand count
+(<a href="projects/palm-tree-counting/">Palm Tree Counting</a>). I built
+<a href="projects/flood-coverage/">Flood Coverage</a> to measure how rarely a satellite looks at a
+flood while it is rising, from a year of acquisition metadata. I built
+<a href="projects/biosift/">BioSift</a> because a species record is only as useful as its
+coordinates.</p>
+<p>I am looking for entry-level roles in GIS analysis, remote sensing, or environmental data
+work, preferably connected to forest monitoring.</p>
 </div>
-<div class="about-image">
-  <img src="assets/images/about.png" alt="Reihan in the field">
+<div class="about-plate">
+<p><img alt="Reihan in the field" src="assets/images/about.png" /></p>
 </div>
 </div>
-<hr />
-<p><a class="md-button md-button--primary" href="projects/">View My Projects <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg></span></a>
-<a class="md-button" href="assets/reihan-CV.pdf">Download CV <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20h14v-2H5m14-9h-4V3H9v6H5l7 7z"/></svg></span></a></p>
-<hr />
-<h2 id="skills">Skills</h2>
-<div class="grid cards">
+</div>
+<div class="panel">
+<h2 id="capabilities">Capabilities</h2>
+<p>Every line below comes from a named certification, a field project, or published work. The
+full list, with issuers and dates, is on the <a href="experience/#certifications">Experience page</a>.</p>
+<div class="datasheet">
+<div class="datasheet-row">
+<div class="datasheet-key">
+<p>remote sensing</p>
+</div>
+<div class="datasheet-val">
 <ul>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m5 18 3.5-4.5 2.5 3 3.5-4.5 4.5 6M5 12v-2a5 5 0 0 0 5-5h2a7 7 0 0 1-7 7m0-7h3a3 3 0 0 1-3 3m14-5H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2"/></svg></span> <strong>Remote Sensing</strong></p>
-<ul>
-<li>Land cover and land use change analysis from satellite imagery (NASA ARSET)</li>
+<li>Land cover and land use change from satellite imagery (NASA ARSET)</li>
 <li>Active fire, smoke, and post-fire monitoring (NASA ARSET)</li>
 <li>Water quality monitoring for lakes and coastal regions (NASA ARSET)</li>
 <li>Hyperspectral imagery for land and coastal systems (NASA ARSET)</li>
 <li>Marine and ocean data analysis (Copernicus Marine Service)</li>
 <li>Accuracy assessment with confusion matrices (RECOFTC land cover validation)</li>
-<li>Satellite acquisition coverage: revisit and gap analysis from STAC metadata (Flood Coverage)</li>
+<li>Acquisition coverage: revisit and gap analysis from STAC metadata (Flood Coverage)</li>
 </ul>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m15 19-6-2.11V5l6 2.11M20.5 3h-.16L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5a.5.5 0 0 0 .5.5c.05 0 .11 0 .16-.03L9 18.9l6 2.1 5.64-1.9c.21-.1.36-.25.36-.48V3.5a.5.5 0 0 0-.5-.5"/></svg></span> <strong>GIS &amp; Mapping</strong></p>
+</div>
+</div>
+<div class="datasheet-row">
+<div class="datasheet-key">
+<p>gis and mapping</p>
+</div>
+<div class="datasheet-val">
 <ul>
 <li>QGIS for cartography and spatial analysis (Advanced QGIS, Spatial Thoughts)</li>
 <li>ArcGIS for climate-focused spatial analysis (Esri GIS for Climate Action)</li>
@@ -830,37 +859,48 @@ preferably connected to forest monitoring.</p>
 <li>Web maps with Leaflet.js and Folium; dashboards with Streamlit</li>
 <li>UAV photogrammetry with Agisoft Metashape and OpenDroneMap</li>
 </ul>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 21v-4.26c-.47.17-.97.26-1.5.26C7 17 5 15 5 12.5c0-1.27.5-2.41 1.36-3.23C6.13 8.73 6 8.13 6 7.5 6 5 8 3 10.5 3c1.56 0 2.94.8 3.75 2h.25a5.5 5.5 0 0 1 5.5 5.5 5.5 5.5 0 0 1-5.5 5.5q-.75 0-1.5-.21V21z"/></svg></span> <strong>Forestry &amp; Field Work</strong></p>
+</div>
+</div>
+<div class="datasheet-row">
+<div class="datasheet-key">
+<p>forestry and field</p>
+</div>
+<div class="datasheet-val">
 <ul>
-<li>AGB and carbon stock surveys: DBH, height, and species identification (peatland study, PT Hatfield)</li>
+<li>AGB and carbon stock surveys: DBH, height, species identification (peatland study, PT Hatfield)</li>
 <li>Allometric equations and ground-truth validation</li>
 <li>Plot boundary staking and excavation compliance supervision</li>
 <li>Forest policy and governance analysis (RECOFTC)</li>
 <li>REDD+ and forest carbon frameworks (UNITAR / UN Environment)</li>
 <li>Wildlife population density estimation (Harimau Kita tiger analysis)</li>
 </ul>
-</li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 11.78 4.24-7.33 1.73 1-5.23 9.05-6.51-3.75L5.46 19H22v2H2V3h2v14.54L9.5 8z"/></svg></span> <strong>Data Analysis &amp; Machine Learning</strong></p>
+</div>
+</div>
+<div class="datasheet-row">
+<div class="datasheet-key">
+<p>data and code</p>
+</div>
+<div class="datasheet-val">
 <ul>
 <li>Data cleaning, analysis, and visualization (Google Data Analytics)</li>
 <li>Python with Pandas and Matplotlib; R and SQL</li>
 <li>Time series analysis (openHPI)</li>
 <li>Supervised classification with scikit-learn (Oracle Cloud Data Science Professional, DataCamp AI Engineer Associate)</li>
 <li>Statistical data analysis (DataCamp Certified Data Analyst Associate)</li>
-<li>Reproducible pipelines with no external dependencies; API ingestion from STAC and Open-Meteo (Flood Coverage)</li>
-</ul>
-</li>
+<li>Pipelines with no external dependencies; API ingestion from STAC and Open-Meteo (Flood Coverage)</li>
 </ul>
 </div>
-<p>These skills come from named certifications, field projects, and published work. The complete list of certifications, with issuers and dates, is on the <a href="experience/#certifications">Experience page</a>.</p>
-<hr />
+</div>
+</div>
+</div>
+<div class="panel">
 <h2 id="connect">Connect</h2>
-<p><a class="md-button" href="https://github.com/Hansen-arch">GitHub <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg></span></a>
-<a class="md-button" href="https://www.linkedin.com/in/reihan-apriandi-700845266/">LinkedIn <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg></span></a>
-<a class="md-button" href="mailto:apriandireihan@gmail.com">Email <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m20 8-8 5-8-5V6l8 5 8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></span></a></p>
+<div class="contact-row">
+<p><a class="md-button" href="https://github.com/Hansen-arch">GitHub</a>
+<a class="md-button" href="https://www.linkedin.com/in/reihan-apriandi-700845266/">LinkedIn</a>
+<a class="md-button" href="mailto:apriandireihan@gmail.com">Email</a></p>
+</div>
+</div>
 
 
 

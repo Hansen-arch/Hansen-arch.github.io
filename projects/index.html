@@ -50,8 +50,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"IBM Plex Sans";--md-code-font:"IBM Plex Mono"}</style>
       
     
     
@@ -63,6 +63,8 @@
 
     
     
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -472,6 +474,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    All Projects
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -488,6 +508,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#palm-tree-counting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Palm Tree Counting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#biosift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BioSift
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flood-coverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flood Coverage
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -661,6 +733,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#palm-tree-counting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Palm Tree Counting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#biosift" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BioSift
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flood-coverage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flood Coverage
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -679,28 +792,47 @@
 
 
 <h1 id="projects">Projects</h1>
-<p>Selected work in geospatial analysis, forestry, and data science.</p>
-<div class="grid">
-<div class="project-card">
-<p><img alt="" src="../assets/images/palm-1.jpg" /></p>
-<p><strong><a href="palm-tree-counting/">Palm Tree Counting</a></strong></p>
-<p>Oil palm tree counting from UAV orthophotos. A YOLOv8 detector runs on a free Colab GPU, detections return as georeferenced points with crown sizes, and 24,966 trees over 310 hectares are counted against a 500 m river setback.</p>
+<p>Three projects, each built to answer a question that existing maps or dashboards did not.
+The numbers on their pages come from the projects themselves.</p>
+<div class="index-list">
+<div class="index-row">
+<div class="index-num">01</div>
+<div class="index-body">
+<h2 id="palm-tree-counting"><a href="palm-tree-counting/">Palm Tree Counting</a></h2>
+<p>Oil palm tree counting from UAV orthophotos. A YOLOv8 detector runs on a free Colab GPU,
+detections return as georeferenced points with crown sizes, and 24,966 trees over 310
+hectares are counted against a 500 m river setback.</p>
 <p><code>Python</code> <code>YOLOv8</code> <code>GDAL</code> <code>Colab</code> <code>QGIS</code></p>
-<p><a class="md-button" href="palm-tree-counting/">View Project</a></p>
 </div>
-<div class="project-card">
-<p><img alt="" src="../assets/images/biosift-1.png" /></p>
-<p><strong><a href="biosift/">BioSift</a></strong></p>
-<p>Web app that checks the quality of GBIF species occurrence records. Ten automated quality checks, spatial outlier detection, and Darwin Core Archive export. Built for the 2026 GBIF Ebbe Nielsen Challenge.</p>
+<div class="index-plate">
+<p><a href="palm-tree-counting/"><img alt="Oil palm crowns detected across a merged orthomosaic" src="../assets/images/palm-1.jpg" /></a></p>
+</div>
+</div>
+<div class="index-row">
+<div class="index-num">02</div>
+<div class="index-body">
+<h2 id="biosift"><a href="biosift/">BioSift</a></h2>
+<p>Web app that checks the quality of GBIF species occurrence records. Ten automated quality
+checks, spatial outlier detection, and Darwin Core Archive export. Built for the 2026 GBIF
+Ebbe Nielsen Challenge.</p>
 <p><code>Python</code> <code>Streamlit</code> <code>GBIF</code> <code>scikit-learn</code> <code>folium</code></p>
-<p><a class="md-button" href="biosift/">View Project</a></p>
 </div>
-<div class="project-card">
-<p><img alt="" src="../assets/images/flood-1.png" /></p>
-<p><strong><a href="flood-coverage/">Flood Coverage</a></strong></p>
-<p>Measures how often a Sentinel-1 pass lands inside a flood's rise, across four river basins in Europe and Indonesia, and whether a GloFAS forecast peak can actually be checked. One year of real acquisition metadata, computed locally.</p>
+<div class="index-plate">
+<p><a href="biosift/"><img alt="The BioSift quality report and map view" src="../assets/images/biosift-1.png" /></a></p>
+</div>
+</div>
+<div class="index-row">
+<div class="index-num">03</div>
+<div class="index-body">
+<h2 id="flood-coverage"><a href="flood-coverage/">Flood Coverage</a></h2>
+<p>Measures how often a Sentinel-1 pass lands inside a flood's rise, across four river basins
+in Europe and Indonesia, and whether a GloFAS forecast peak can actually be checked. One
+year of real acquisition metadata, computed locally.</p>
 <p><code>Python</code> <code>STAC</code> <code>Sentinel-1</code> <code>GloFAS</code> <code>JavaScript</code></p>
-<p><a class="md-button" href="flood-coverage/">View Project</a></p>
+</div>
+<div class="index-plate">
+<p><a href="flood-coverage/"><img alt="Coverage figures for the four basins" src="../assets/images/flood-1.png" /></a></p>
+</div>
 </div>
 </div>
 
