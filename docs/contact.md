@@ -11,7 +11,7 @@ hide:
 
 <!--
 CHECKLIST FOR THIS PAGE:
-- [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf (Sep 2026)
+- [x] Synced with: Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated Nov 2026.pdf (Nov 2026)
 - [ ] Re-sync after every CV update, see PORTFOLIO-SOURCES.md at repo root
 -->
 

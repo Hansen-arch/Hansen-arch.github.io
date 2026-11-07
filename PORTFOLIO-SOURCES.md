@@ -11,12 +11,12 @@ Last synced: 2026-11-07
 
 | Website page | Source file (single source of truth) | Last synced |
 |---|---|---|
-| `docs/index.md` (hero, about, skills) | `~/Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated.pdf` — Profile, Skills sections | 2026-09-22 |
-| `docs/experience.md` (all work + org experience) | same PDF — Professional Experience, Leadership & Organizational Experience | 2026-09-22 |
-| `docs/experience.md` (education) | same PDF — Education (8th semester, GPA 3.68/4.00) | 2026-09-22 |
-| `docs/experience.md` (certifications) | same PDF — Certifications (4 categories) | 2026-09-22 |
-| `docs/contact.md` (location, phone, email) | same PDF — header line | 2026-09-22 |
-| `docs/assets/reihan-CV.pdf` (Download CV button) | same PDF — copied verbatim | 2026-09-22 |
+| `docs/index.md` (hero, about, skills) | `~/Documents/Personal/CV and Cover Letters/Reihan_Apriandi_CV updated Nov 2026.pdf` — Profile, Skills sections | 2026-11-07 |
+| `docs/experience.md` (all work + org experience) | same PDF — Professional Experience, Leadership & Organizational Experience | 2026-11-07 |
+| `docs/experience.md` (education) | same PDF — Education (8th semester, GPA 3.68/4.00) | 2026-11-07 |
+| `docs/experience.md` (certifications) | same PDF — Certifications (4 categories) | 2026-11-07 |
+| `docs/contact.md` (location, phone, email) | same PDF — header line | 2026-11-07 |
+| `docs/assets/reihan-CV.pdf` (Download CV button) | same PDF — copied verbatim | 2026-11-07 |
 | `docs/projects/biosift.md` | GBIF Ebbe Nielsen Challenge submission + biosift repo | 2026 (unchanged) |
 | `docs/projects/flood-coverage.md` | flood-coverage repo: README and `docs/03-method.md` | 2026-11-07 |
 
@@ -29,8 +29,10 @@ ready, copy the checklist from the top of `docs/projects/biosift.md`.
 
 ## Update workflow (every time the CV changes)
 
-1. Save the new CV as `Reihan_Apriandi_CV updated.pdf` in
-   `~/Documents/Personal/CV and Cover Letters/`
+1. Edit `build_cv.py` in `~/Documents/Personal/CV and Cover Letters/` (the DATA block at the
+top holds every line of the CV), run `python3 build_cv.py`, then
+`libreoffice --headless --convert-to pdf "Reihan_Apriandi_CV updated Nov 2026.docx"`
+The Sep 2026 original has no editable source and is kept only for reference.
 2. Update the three content pages (`index.md`, `experience.md`, `contact.md`) from it
 3. Copy the PDF over `docs/assets/reihan-CV.pdf`
 4. Update the "Last synced" dates in the table above and in the checklist comment
