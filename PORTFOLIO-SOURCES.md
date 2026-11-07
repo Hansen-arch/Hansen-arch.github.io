@@ -3,7 +3,7 @@
 **Purpose:** Every public page on this website must be traceable to a real document.
 When you update one of the source files below, re-sync the matching page here before publishing.
 
-Last synced: 2026-09-22
+Last synced: 2026-11-07
 
 ---
 
@@ -36,7 +36,10 @@ ready, copy the checklist from the top of `docs/projects/biosift.md`.
 4. Update the "Last synced" dates in the table above and in the checklist comment
    at the top of `docs/experience.md`
 5. Preview locally: `conda activate portfolio && mkdocs serve --livereload` → http://127.0.0.1:8000
-6. Review, then commit and push (GitHub Actions publishes the site)
+   (or `.venv/bin/mkdocs serve`)
+6. Review, then commit. Publishing is `mkdocs gh-deploy`, which rebuilds and pushes the
+   `gh-pages` branch. This repo has no GitHub Actions workflow, so pushing to `main` alone
+   does not publish the site.
 
 Reference tutorial: <https://courses.spatialthoughts.com/geospatial-portfolio-workshop.html>
 (§6.1 "Updating Content Pages", §6.4 "Adding a Project Page")

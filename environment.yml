@@ -8,3 +8,5 @@ dependencies:
   - pip:
     - mkdocs-material>=9.5
     - mkdocs-jupyter
+    - Pillow
+    - cairosvg

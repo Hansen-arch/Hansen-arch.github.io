@@ -90,7 +90,7 @@ preferably connected to forest monitoring.
 
     - Data cleaning, analysis, and visualization (Google Data Analytics)
     - Python with Pandas and Matplotlib; R and SQL
-    - Time series analysis and forecasting (openHPI)
+    - Time series analysis (openHPI)
     - Supervised classification with scikit-learn (Oracle Cloud Data Science Professional, DataCamp AI Engineer Associate)
     - Statistical data analysis (DataCamp Certified Data Analyst Associate)
     - Reproducible pipelines with no external dependencies; API ingestion from STAC and Open-Meteo (Flood Coverage)
