@@ -21,6 +21,8 @@ Last synced: 2026-11-07
 | `docs/projects/biosift.md` | GBIF Ebbe Nielsen Challenge submission + biosift repo | 2026 (unchanged) |
 | `docs/projects/flood-coverage.md` | flood-coverage repo: README and `docs/03-method.md` | 2026-11-07 |
 | `docs/projects/palm-tree-counting.md` | palm-tree-counting-yolo repo: README, `docs/README.md`, `docs/REPORT.md`, `docs/ringkasan_*.json` | 2026-11-07 |
+| `docs/projects/urban-heat-island.md` | `pekanbaru-uhi` repo: README, `outputs/zonal_stats.csv`, `outputs/intervention_zones.csv` | 2026-11-08 |
+| `docs/projects/urban-green-space.md` | `urban-green-space-change` repo: README, `outputs/data/stats.json`, `outputs/data/area_summary.csv` | 2026-11-08 |
 
 **Excluded by decision (2026-11-07):** the `student-stress-analysis` repo. It is a student
 course project, not portfolio work. Do not add a page for it.
