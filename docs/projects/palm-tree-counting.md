@@ -19,9 +19,9 @@ keywords:
 
 ## Overview
 
-Counting oil palm trees by hand from aerial imagery does not scale. A single block of a few
-hundred hectares holds tens of thousands of crowns, and the count has to be redone whenever a
-block is replanted, thinned, or audited.
+Counting oil palms by hand from aerial imagery is slow. A single block of a few hundred
+hectares holds tens of thousands of crowns, and the count has to be redone whenever a block
+is replanted, thinned, or audited.
 
 This project counts them automatically. Five UAV orthophotos covering just over 310 hectares are
 merged into one mosaic, the mosaic is resampled to the ground resolution the detector was trained
@@ -91,7 +91,7 @@ reviewed in QGIS before it is used.
 | PMBN3 47N | 48.2 ha | 399 | 8.3 /ha | 0.633 |
 | PMBN ORTO2 (tagged 48S, actually 48N) | 90.2 ha | 8,040 | 89.1 /ha | 0.704 |
 
-The low density on PMBN3 is a real property of that block, not a detection failure: it holds far
+The low density on PMBN3 comes from the block itself, not a detection failure: it holds far
 fewer palms over a similar area than its neighbours.
 
 ![Detections on the second block, read at 0.071 m ground pixel](../assets/images/palm-2.jpg)
@@ -111,13 +111,12 @@ The model is a YOLOv8 nano fine tuned on a public Roboflow Universe dataset of 2
 | Agreement with an independent digitising pass | 92% |
 
 The first three rows describe the public dataset, not these blocks. The count bias and the 92%
-agreement are the numbers that speak to the plantation imagery, and they are the ones worth
-quoting.
+agreement are the numbers that apply to the plantation imagery.
 
 ### The same trees, counted two ways
 
 Detecting each orthophoto separately and detecting the merged mosaic once should give the same
-answer. Checking that is how the mosaic step earns its place:
+answer. Checking that shows whether the mosaic step changes the count:
 
 | Source | Per ortho | On mosaic | Difference |
 |---|---|---|---|
@@ -138,7 +137,7 @@ polygons, as a demonstration that the point layer is analysis ready and not just
 | River clip area per ortho | 1.05 / 0.27 / 1.02 ha |
 
 No reprojection is needed for this step, because the points and the zones share a CRS. The same
-scripts clip the source rasters to each zone, so the counts can be inspected rather than trusted.
+scripts clip the source rasters to each zone so the counts can be checked.
 
 ---
 
@@ -170,16 +169,15 @@ scripts clip the source rasters to each zone, so the counts can be inspected rat
 | NumPy, SciPy | Raster arrays, morphology, spatial filtering |
 | QGIS | Visual review of detections and zone counts |
 
-**One data issue worth naming.** The second block's orthophoto is tagged WGS 84 / UTM zone 48S
+**A CRS error in one file.** The second block's orthophoto is tagged WGS 84 / UTM zone 48S
 with a false northing of 10,000,000, but its coordinates resolve to 0°21' N, north of the equator
 in zone 48N. As tagged, the file sits in the wrong hemisphere, so its CRS was corrected before it
-was used with the others. Errors like that are invisible until a layer lands in the wrong place,
-which is why the pipeline checks CRS and ground resolution before inference instead of assuming
-them.
+was used with the others. The pipeline checks CRS and ground resolution before inference because
+an error like that is invisible until a layer lands in the wrong place.
 
 ---
 
-## What it does not tell you
+## Limitations
 
 - There are no ground plots. The plus or minus 8% is count bias on a labelled validation split plus run to run consistency, not a field measurement. Narrowing it needs stems counted on the ground.
 - The 0.977 mAP belongs to the public training dataset. It says the model learned that data well, not that it scores the same on these blocks.

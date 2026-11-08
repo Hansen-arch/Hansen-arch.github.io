@@ -18,12 +18,12 @@ keywords:
 
 ## Overview
 
-Pekanbaru grew quickly into surrounding forest, plantation and peat. The question here is
-narrower than "is the city getting greener": which ground lost vegetation, which gained it,
-and what was on that ground when the change happened.
+Pekanbaru has grown into surrounding forest, plantation and peat. This project asks which
+ground lost vegetation, which gained it, and what land cover was there when the change
+happened.
 
 Two calendar years of Sentinel-2 surface reflectance are compared on the city boundary
-itself, at the resolution of the cloud mask rather than a convenient round number. Cloud is
+itself, at the 20 m resolution of the cloud mask. Cloud is
 handled per pixel from the Sentinel-2 classification layer, and pixels without at least five
 clear observations in both years are dropped rather than averaged over whatever survived.
 
@@ -65,8 +65,8 @@ classes are cross-tabulated, so the attribution totals reconcile with the headli
 
 ## Results
 
-Mean NDVI rose from **0.576 to 0.605** (+0.028). The headline is a net figure, and the net
-hides the structure.
+Mean NDVI rose from **0.576 to 0.605** (+0.028). The class table below separates loss,
+stable ground, and gain.
 
 | | 2019 | 2025 | Change |
 |---|---|---|---|
@@ -106,7 +106,7 @@ conditions.
 
 ### Two independent checks
 
-Both checks exist because a single-sensor result deserves suspicion.
+Both checks test the result against a second sensor and a different seasonal window.
 
 | Check | Result |
 |---|---|
@@ -150,7 +150,7 @@ areas, not a typical pixel. The cross-sensor comparison puts the two instruments
 
 ---
 
-## What it does not tell you
+## Limitations
 
 - NDVI is greenness, not green space. A young oil palm block and a remnant forest can share a value and differ completely in cooling, carbon and biodiversity. A land-cover claim needs a classification, not an index.
 - NDVI saturates in dense canopy, so loss inside the most heavily forested cells is likely understated. Three of the five largest losses started above 0.75.

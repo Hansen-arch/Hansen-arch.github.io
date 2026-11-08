@@ -1,59 +1,106 @@
-# Design direction
+# Field Notes / 1-bit
 
-**Read:** a working portfolio for forestry, GIS and remote sensing reviewers, in a quiet
-instrument panel language. Dial **ENERGY 2 / RHYTHM 2 / MOTION 1**.
+A second portfolio skin. The content is the same as the main site; this version changes how it
+is read.
 
-## What it should feel like
+## Direction
 
-A survey instrument, not a startup page. The people reading this are lecturers, forest
-managers and GIS leads. They are checking whether the numbers hold up, so the page should
-look like something that measures things: flat ground, hairlines, precise type, one signal
-colour, and the imagery given the brightest surface on the screen.
+A black and white halftone field report crossed with a text-mode survey print: white paper,
+black ink, black screens, ASCII frames, dashed rules, monospaced display type, dithered
+photographs. It borrows the look of a risograph print and a terminal printout, not a window.
+The data figures stay in colour because colour encodes the measurement; everything around them
+is drawn in black and white. The invert control returns to black paper with white ink and white
+screens.
+
+## Dials
+
+ENERGY 3 / RHYTHM 3 / MOTION 1.
+
+- ENERGY 3: the masthead is large and the name is set in a monospaced display face. The page
+  announces itself.
+- RHYTHM 3: the hero is asymmetric, the project index is a table of rows, the methods section is
+  a datasheet, and the project pages are long-form. Sections do not repeat one card grid.
+- MOTION 1: links and buttons invert on hover; rows take a faint 1-bit screen. There are no
+  scroll reveals or loops.
 
 ## Palette
 
-Two neutrals plus one accent, nothing else. No gradient, no glow, no shadow anywhere.
-
-| Token | Dark | Light | Why |
-|---|---|---|---|
-| Ground | `#0d0f10` | `#f3f3f0` | Graphite holds the aerial plates as the brightest surface, the way a console presents imagery. Light mode is the paper plot sheet for printing and daylight. |
-| Ink | `#e8eae9` | `#161817` | Neutral, slightly cool, so the amber stays the only warm thing. |
-| Ink secondary | `#a2a7a4` | `#4b4f4c` | Body copy at 7:1 or better on the ground. |
-| Rule | 14% ink | 14% ink | Structure comes from 1 px rules, not from boxes. |
-| Accent | `#e3a15c` | `#8f5310` | Sodium amber, the backlight of a field instrument. It marks the active tab, focus, the plate index and the primary action, and nothing else. |
-
-Amber is chosen over the blue or cyan that technical sites default to: it keeps the cool
-orthophoto plates and the warm signal apart, so the accent still reads as a signal.
+White (#ffffff) paper with black (#000000) ink, no grey. The inverted state is black paper
+(#000000) with white ink (#ffffff). The screen is black in the light state and white in the
+dark state, used only in the 1-bit hatching and checker patterns. Secondary text is separated
+by size and weight, not by tone. The invert control swaps the two text inks. Shading is made
+with 1-bit screens (a diagonal line pattern and a checker), so the eye reads tone without a
+grey pixel.
 
 ## Type
 
-IBM Plex Sans and IBM Plex Mono.
+- Display and text: IBM Plex Mono. One face for the page. Headings run uppercase at 600;
+  prose runs at 400, 0.8rem, with 1.7 line height.
+- The name and section headings sit on the same character grid as the body, which is what
+  makes the page read as a text-mode record.
+- The 1-bit signal comes from the dithered plates and the ASCII frame, not from a pixel
+  display face.
+- Uppercase mono is reserved for the masthead strip, headings, ASCII frame labels, plate
+  captions, table headers, and controls.
 
-Plex was drawn for technical documentation, and its mono is the same voice, so a CRS code,
-a coordinate or a tree count sits in the page without a terminal costume. Headings run in
-Plex Sans 600 at a tight track; the mono is reserved for data: readouts, plate captions,
-table figures, and the section indices. No uppercase tracking anywhere.
+## ASCII motif
 
-## Layout
+The plate and press language comes from the 1-bit skin; the text-mode frame comes from the
+main portfolio. The marks are pure ASCII: `+`, `-`, `[`, `]`, `>`, `_`.
 
-- **Masthead:** asymmetric. The name is the focal point on the left, a four-line readout on
-  the right holding facts a reviewer actually checks (location, study, focus, availability).
-- **Sections** are introduced by a hairline with a small mono index, the way a plot sheet
-  numbers its panels.
-- **Capabilities** are a datasheet: category in the left column, evidence in the right. Not
-  four identical cards.
-- **Projects** are rows with an index, a summary, a stack line and one small plate. Rows
-  scale where a card grid does not, and the hierarchy comes from the plate size.
-- **Project pages** keep prose and data tables; their hero image becomes a plate with a
-  mono caption naming the block and ground resolution, because that caption is provenance.
+- The hero opens with a static `>_` console line.
+- Section headings open `+-- [01]` and close on a dashed rule with a `+` at the right edge.
+- The page sheet is labelled `+--[ field notes ]`; the hero plate is labelled `+--[ hero ]`;
+  plate captions open `+-- `.
+- Actions are bracketed `[ ]`, index numbers read `[01]` inside their box, and tab and readout
+  markers use `>`.
+- Inner page titles open `+-- `; the hero name stays a display plate.
+- The footer copyright opens `+--`.
+- The console line does not type or loop; motion stays on hover and focus only.
 
-## Motion
+## Images
 
-Hover and focus only. Links take a fuller underline, plates lift their desaturation, rows
-mark themselves with the accent on the index. Nothing animates on load.
+- The hero landscape, the About portrait, and the five index plates are reduced to 1 bit with
+  an 8x8 Bayer matrix, then recoloured to the two inks with the `ink-duotone` SVG filter. They
+  are generated by `tools/dither.py`; the originals are kept.
+- Analytical figures inside the project pages keep their colour. The colour is the measurement
+  (temperature, NDVI, flood probability), so removing it would remove information. They sit in
+  a hard ink frame, and the rest of the page is two-tone.
+- The dithered images follow the text inks: black on white by default, white on black in the
+  dark state. The colour figures do not change.
 
-## Honesty
+## Structure
 
-The readout only carries facts that can be checked: the city and its coordinates, the
-university and year, the stated availability. No counters, no "10+ projects", no logos of
-employers that have not hired him.
+- The page sits on a framed sheet, max 62rem, with a 1px border, a `+--[ field notes ]` label on
+  the top rule, and 1.2rem of inner padding. The header and footer stay full width so the sheet
+  reads as a page inside the site.
+- Hero: a three-part strip (name, year, coordinates), a static `>_` console line, the name at
+  display size, the lede, two bracketed actions, a labelled dithered landscape plate, and a
+  four-cell readout.
+- Projects: numbered rows with a title, summary, tool tags, and a 280 px dithered plate. The
+  index number reads `[01]` inside the existing box. Not cards.
+- Section headings are numbered by CSS (`+-- [01]`) and ruled with a dashed top border.
+- The header and browser title use the name only; Field Notes lives in the masthead strip and
+  the footer.
+- Tables are hard-ruled in ink, with a 2px rule under the header. Rules are 1px elsewhere,
+  never shadows.
+- The footer is a solid ink block.
+
+## Motion and interaction
+
+Hover inverts links, buttons, and nav items. Project, search, and table rows take a faint 1-bit
+screen, light enough to read through. The console line is static. The only page-level control is
+the light/dark invert toggle in the header, provided by Material and persisted. No scroll
+animation. Reduced motion is respected.
+
+## Accessibility
+
+Black on white (21:1) and white on black (21:1). Focus is a 2px outline with a 3px offset,
+never removed. Tap targets are at least 44px. The palette toggle has a label and a keyboard
+path. The layout is checked at 360px, 768px, and 1280px.
+
+## Why this is a separate version
+
+The main site is a graphite terminal frame with an amber accent. This one is a monochrome
+printout that keeps the 1-bit plates and borrows the ASCII frame. Keeping it in a separate
+folder means the deployed site is untouched and the two directions can be compared.

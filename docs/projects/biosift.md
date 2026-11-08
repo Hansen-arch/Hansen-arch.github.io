@@ -16,13 +16,11 @@ keywords:
 
 ## Overview
 
-BioSift is an open-source web app for checking the quality of species occurrence records from
-the Global Biodiversity Information Facility (GBIF). GBIF aggregates data from thousands of
-publishers, and before a dataset is used for analysis it helps to know how reliable it is:
-whether coordinates are missing or misplaced, whether records are duplicated, and where
-coverage gaps are. BioSift automates those checks. Enter one or more species names, set a
-year range, and the app fetches the records from the GBIF API, scores them, and reports the
-results.
+BioSift is an open-source web app for checking species occurrence records from the Global
+Biodiversity Information Facility (GBIF). Before a GBIF dataset is used for analysis, it helps
+to know whether coordinates are missing or misplaced, whether records are duplicated, and where
+coverage gaps are. BioSift runs those checks. Enter one or more species names, set a year
+range, and the app fetches the records from the GBIF API, scores them, and reports the results.
 
 **Study area:** Global
 **Year:** 2026
@@ -58,7 +56,7 @@ results.
 
 ---
 
-## App Screenshots
+## Screenshots
 
 ### Occurrence Map
 Interactive point map with clean records (green) and flagged records (red).
@@ -82,7 +80,7 @@ Global data gap map on a 10° grid, with alerts for cells with little or no cove
 
 ---
 
-## What the App Does
+## Features
 
 - Runs ten quality checks and summarizes each dataset with a data health score from 0 to 100%
 - Compares up to five species side by side and exports the comparison as a report

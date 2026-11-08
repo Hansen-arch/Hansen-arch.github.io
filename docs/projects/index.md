@@ -16,8 +16,7 @@ hide:
 
 # Projects
 
-Five projects, each built to answer a question that existing maps or dashboards did not.
-The numbers on their pages come from the projects themselves.
+Five projects in forestry, remote sensing, and environmental data.
 
 <div class="index-list" markdown>
 
@@ -29,9 +28,9 @@ The numbers on their pages come from the projects themselves.
 
 ## [Palm Tree Counting](palm-tree-counting.md)
 
-Oil palm tree counting from UAV orthophotos. A YOLOv8 detector runs on a free Colab GPU,
-detections return as georeferenced points with crown sizes, and 24,966 trees over 310
-hectares are counted against a 500 m river setback.
+Oil palm counting from UAV orthophotos with a YOLOv8 detector. The detections are
+georeferenced points with crown sizes; 24,966 trees over 310.8 hectares were checked
+against a 500 m river setback.
 
 `Python` `YOLOv8` `GDAL` `Colab` `QGIS`
 
@@ -39,7 +38,7 @@ hectares are counted against a 500 m river setback.
 
 <div class="index-plate" markdown>
 
-[![Oil palm crowns detected across a merged orthomosaic](../assets/images/palm-1.jpg)](palm-tree-counting.md)
+<a href="palm-tree-counting/"><img class="dither-img" src="../assets/images/1bit/palm-1.png" alt="Oil palm crowns detected across a merged orthomosaic" width="280" height="280" loading="lazy"></a>
 
 </div>
 
@@ -53,9 +52,9 @@ hectares are counted against a 500 m river setback.
 
 ## [BioSift](biosift.md)
 
-Web app that checks the quality of GBIF species occurrence records. Ten automated quality
-checks, spatial outlier detection, and Darwin Core Archive export. Built for the 2026 GBIF
-Ebbe Nielsen Challenge.
+A web app for checking GBIF species occurrence records before analysis. It runs ten quality
+checks, flags spatial outliers, and exports a Darwin Core Archive. Submitted to the 2026
+GBIF Ebbe Nielsen Challenge.
 
 `Python` `Streamlit` `GBIF` `scikit-learn` `folium`
 
@@ -63,7 +62,7 @@ Ebbe Nielsen Challenge.
 
 <div class="index-plate" markdown>
 
-[![The BioSift quality report and map view](../assets/images/biosift-1.png)](biosift.md)
+<a href="biosift/"><img class="dither-img" src="../assets/images/1bit/biosift-1.png" alt="The BioSift quality report and map view" width="280" height="157" loading="lazy"></a>
 
 </div>
 
@@ -77,9 +76,9 @@ Ebbe Nielsen Challenge.
 
 ## [Flood Coverage](flood-coverage.md)
 
-Measures how often a Sentinel-1 pass lands inside a flood's rise, across four river basins
-in Europe and Indonesia, and whether a GloFAS forecast peak can actually be checked. One
-year of real acquisition metadata, computed locally.
+A measurement of how often Sentinel-1 sees a flood while it is rising, across four river
+basins in Europe and Indonesia. It uses one year of acquisition metadata and asks whether a
+GloFAS forecast peak can be checked with a satellite pass.
 
 `Python` `STAC` `Sentinel-1` `GloFAS` `JavaScript`
 
@@ -87,7 +86,7 @@ year of real acquisition metadata, computed locally.
 
 <div class="index-plate" markdown>
 
-[![Coverage figures for the four basins](../assets/images/flood-1.png)](flood-coverage.md)
+<a href="flood-coverage/"><img class="dither-img" src="../assets/images/1bit/flood-1.png" alt="Coverage figures for the four basins" width="280" height="190" loading="lazy"></a>
 
 </div>
 
@@ -101,9 +100,9 @@ year of real acquisition metadata, computed locally.
 
 ## [Urban Heat Island](urban-heat-island.md)
 
-Surface heat across Pekanbaru from Landsat thermal data. A medoid composite closed with
-per-pixel regression raises clear coverage to 79.9%, ships its own uncertainty layer, and
-ranks three intervention zones on heat and vegetation loss.
+Surface temperature across Pekanbaru from Landsat thermal data. A medoid composite and a
+regression fill bring clear coverage to 79.9%, with an uncertainty layer. Three intervention
+zones are ranked by heat and vegetation loss.
 
 `Python` `Landsat` `Google Earth Engine` `rasterio` `NumPy`
 
@@ -111,7 +110,7 @@ ranks three intervention zones on heat and vegetation loss.
 
 <div class="index-plate" markdown>
 
-[![Land surface temperature across Pekanbaru](../assets/images/uhi-1.jpg)](urban-heat-island.md)
+<a href="urban-heat-island/"><img class="dither-img" src="../assets/images/1bit/uhi-1.png" alt="Land surface temperature across Pekanbaru" width="280" height="211" loading="lazy"></a>
 
 </div>
 
@@ -125,9 +124,9 @@ ranks three intervention zones on heat and vegetation loss.
 
 ## [Urban Green Space Change](urban-green-space.md)
 
-Where Kota Pekanbaru lost and gained vegetation between 2019 and 2025, from Sentinel-2 at
-20 m. 62,110 ha analysed, every pixel attributed to a land-cover class, and the result
-tested against a second sensor.
+Vegetation loss and gain in Kota Pekanbaru between 2019 and 2025, from Sentinel-2 at 20 m.
+The analysis covers 62,110 ha, attributes every pixel to a land-cover class, and checks the
+result against Landsat.
 
 `Python` `Sentinel-2` `Google Earth Engine` `WorldCover` `Matplotlib`
 
@@ -135,7 +134,7 @@ tested against a second sensor.
 
 <div class="index-plate" markdown>
 
-[![NDVI change across Kota Pekanbaru](../assets/images/green-1.jpg)](urban-green-space.md)
+<a href="urban-green-space/"><img class="dither-img" src="../assets/images/1bit/green-1.png" alt="NDVI change across Kota Pekanbaru" width="280" height="261" loading="lazy"></a>
 
 </div>
 

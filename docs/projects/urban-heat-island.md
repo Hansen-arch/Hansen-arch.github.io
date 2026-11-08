@@ -1,5 +1,5 @@
 ---
-description: "Mapping surface urban heat in Pekanbaru from Landsat 8/9 thermal data: a medoid composite closed with per-pixel regression, a published uncertainty layer, and three ranked intervention zones."
+description: "Mapping surface urban heat in Pekanbaru from Landsat 8/9 thermal data: a medoid composite closed with per-pixel regression, an uncertainty layer, and three ranked intervention zones."
 keywords:
   - urban heat island
   - land surface temperature
@@ -19,18 +19,16 @@ keywords:
 
 ## Overview
 
-Residents of Pekanbaru report hotter afternoons, but a heat complaint is not a map. This
-project asks three questions a map can answer: which parts of the city have the highest
-land surface temperature, whether those areas are also the areas that lost vegetation, and
-where a first round of cooling interventions would do the most good.
+This project maps land surface temperature across Pekanbaru and asks which parts of the city
+are hottest, whether those areas also lost vegetation, and where a first round of cooling
+interventions would help most.
 
-The hard part is not the thermal band. It is cloud. In the reference scene from 13 June
-2023 only 43.8% of the study area was clear, and the cloud sat over exactly the built-up
-ground the question is about. Dropping those pixels would have produced a map of the
-suburbs and called it a city.
+Cloud is the main problem. In the reference scene from 13 June 2023 only 43.8% of the study
+area was clear, and the cloud sat over the built-up ground the question is about. Dropping
+those pixels would leave mostly suburban ground.
 
-So the analysis builds the composite in two stages with different claims attached to each,
-and publishes the difference.
+The composite is built in two stages, and the page reports how much of the map comes from
+each.
 
 | | |
 |---|---|
@@ -63,22 +61,21 @@ swath.
 | Stage | Share of raster | What the value means |
 |---|---|---|
 | Reference scene only | 43.8% | same-day observation |
-| plus medoid composite | 13.0% | real observation, different date |
+| plus medoid composite | 13.0% | observation from another date |
 | plus regression fill | 23.1% | modelled, not observed |
 | **Total coverage** | **79.9%** | |
 
 ### The uncertainty layer
 
-A filled pixel without an error estimate is a guess wearing a colour ramp. Every modelled
-pixel therefore carries a 1 sigma error from regression residuals pooled in a moving 25 by
-25 window, so heterogeneous urban surfaces get wider bars than uniform ones. The median
+Every modelled pixel carries a 1 sigma error from regression residuals pooled in a moving 25
+by 25 window, so heterogeneous urban surfaces get wider bars than uniform ones. The median
 uncertainty across filled pixels is 0.75 K, the 95th percentile 1.43 K.
 
 ![Uncertainty of the modelled pixels](../assets/images/uhi-2.jpg)
 
-The provenance map is the honest version of the heat map. Red is the reference scene,
-orange is a real observation from another date, blue is modelled. A conclusion about a blue
-area is weaker than one about a red area, and the map says which is which.
+The provenance map shows where each pixel came from. Red is the reference scene, orange is
+an observation from another date, blue is modelled. A conclusion about a blue area is weaker
+than one about a red area.
 
 ![Source of every pixel](../assets/images/uhi-3.jpg)
 
@@ -120,10 +117,9 @@ Vegetation declined in 113 of 125 cells, mean change -0.009 in NDVI. The correla
 mean temperature and vegetation change is **+0.31**: hotter cells tended to lose *less*
 vegetation, not more.
 
-That sign is the opposite of the naive expectation, and it is worth stating rather than
-smoothing. The likely explanation is that the hottest cells were already built up with
-little vegetation left to lose, while the largest NDVI losses happened on vegetated fringes
-that stay comparatively cool. NDVI change measures where vegetation disappeared, not where
+That sign is the opposite of the expected one. The likely explanation is that the hottest
+cells were already built up with little vegetation left to lose, while the largest NDVI
+losses happened on vegetated fringes that stay comparatively cool. NDVI change measures where vegetation disappeared, not where
 heat is worst. The two signals are complementary, which is why they are combined into one
 score instead of one being used to confirm the other.
 
@@ -156,7 +152,7 @@ score instead of one being used to confirm the other.
 
 ---
 
-## What it does not tell you
+## Limitations
 
 - The 2 km grid is not a neighbourhood. No official boundary layer was available, so cells stand in for administrative units, and real boundaries would move the zone edges.
 - This is not a single-day snapshot. The composite mixes dates, so it represents typical dry-season conditions, not the afternoon of 13 June 2023.

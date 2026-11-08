@@ -1,5 +1,5 @@
 ---
-description: "Flood Coverage measures how often a Sentinel-1 pass lands inside a flood's rise, across four river basins in Europe and Indonesia, and whether a GloFAS forecast peak can actually be checked."
+description: "Flood Coverage measures how often a Sentinel-1 pass lands inside a flood's rise, across four river basins in Europe and Indonesia, and whether a GloFAS forecast peak can be checked."
 keywords:
   - flood monitoring
   - Sentinel-1 revisit
@@ -18,19 +18,18 @@ keywords:
 
 ## Overview
 
-Flood Coverage asks a question that flood maps do not answer: if a flood rises over the
-next six hours, will a satellite see it while it is rising?
+Flood maps show where water was. Flood Coverage asks whether a satellite would see a flood
+while it is rising.
 
 Public flood mapping has largely solved speed. Copernicus GFM publishes a global 20 m flood
 layer in under eight hours for more than 99% of scenes, and the fastest documented activation
-delivered its first extent eight hours after trigger. The limit that remains is not processing
-time but how rarely the satellite looks, compared with how fast the water moves. A basin can
-be described as monitored on every dashboard while a short flood passes entirely between two
-passes.
+delivered its first extent eight hours after trigger. The remaining limit is how rarely the
+satellite looks, compared with how fast the water moves. A basin can be called monitored while
+a short flood passes entirely between two passes.
 
-The project measures that gap from real acquisition metadata rather than assuming it, and then
-pairs the result with the free GloFAS discharge forecast that already exists for each basin, to
-ask whether the forecast peak can be verified at all.
+The project measures that gap from acquisition metadata and pairs the result with the free
+GloFAS discharge forecast for each basin, to ask whether a forecast peak can be checked by a
+satellite pass.
 
 | | |
 |---|---|
@@ -43,7 +42,7 @@ ask whether the forecast peak can be verified at all.
 
 ## The measurement
 
-The probability is computed empirically, not modelled. Take the real acquisition timestamps
+The probability is computed empirically, not modelled. Take the acquisition timestamps
 for a year, slide a rise window across them in one hour steps, and count how often a look falls
 inside the window.
 
@@ -64,16 +63,15 @@ reports the gap distribution, so any rise time can be read off without re-runnin
 | Ciliwung, Jakarta | 51 | 0.14 | 203.3 h | 3% | 28% |
 
 The Po and the Ahr have almost the same cadence, 0.87 and 0.69 looks per day and a 24 hour median
-gap, and they land in completely different places: 90% against 17% at a six hour rise. Nothing
-about the satellites changed between them. The rise time did. Jakarta's median gap of 203 hours
+gap, and they land in completely different places: 90% against 17% at a six hour rise. The
+satellites are the same; the basins rise at different speeds. Jakarta's median gap of 203 hours
 means a flash flood is essentially never observed while it is rising, and its longest blackout
 in the year ran 288 hours, from 22 September to 4 October 2026.
 
 ### Can the forecast be checked?
 
-GloFAS already issues a free 30 day river discharge forecast for every basin here, so prediction
-is not the hard part. Each forecast peak is paired with the measured chance that a look lands
-within 24 hours of it.
+GloFAS already issues a free 30 day river discharge forecast for every basin here. Each
+forecast peak is paired with the measured chance that a look lands within 24 hours of it.
 
 ![Forecast peaks with their confirmation rates](../assets/images/flood-2.png)
 
@@ -85,7 +83,7 @@ within 24 hours of it.
 | Ciliwung, Jakarta | 34.0 m³/s | 24 Nov | 4.8x | 28% |
 
 Europe can check its own forecast. Jakarta cannot: for 72% of forecast peaks no look lands within
-a day, so the forecast is issued, acted on, and never verified.
+a day, so the forecast is issued and acted on without being checked.
 
 ---
 
@@ -121,7 +119,7 @@ step. Every statistic on the page is computed locally from the downloaded metada
 
 ---
 
-## What the app does
+## The app
 
 - Shows, per basin, the share of randomly timed floods of a chosen rise length that contain at least one acquisition
 - Draws the whole sweep from 3 to 168 hours, so the conclusion can be read at any rise time instead of resting on one assumption
@@ -131,12 +129,12 @@ step. Every statistic on the page is computed locally from the downloaded metada
 
 ---
 
-## What it does not tell you
+## Limitations
 
 - No acquisition is not no flood. A gap means no look, not absent water, and nothing is rendered as zero.
 - Rise times are assumptions, not per-event measurements, which is why the page shows the full sweep.
 - GloFAS covers rivers only, on a grid that does not resolve small steep catchments, and it is not a flood warning.
-- Four basins do not describe the world. Both European basins sit inside the acquisition scenario that plans them for frequent revisit, and the Indonesian pair shows how far below that coverage can fall.
+- The four basins are not a global sample. Both European basins sit inside the acquisition scenario that plans them for frequent revisit, and the Indonesian pair shows how far below that coverage can fall.
 - This is a personal analysis, not a peer reviewed study.
 
 ---

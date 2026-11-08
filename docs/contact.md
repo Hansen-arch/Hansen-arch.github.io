@@ -17,7 +17,8 @@ CHECKLIST FOR THIS PAGE:
 
 # Contact
 
-I am open to entry-level roles in GIS analysis, remote sensing, and environmental data work, and happy to discuss collaborations or field projects.
+I am looking for entry-level roles in GIS analysis, remote sensing, or environmental data
+work. I am also open to collaborations and field projects.
 
 | | |
 |---|---|

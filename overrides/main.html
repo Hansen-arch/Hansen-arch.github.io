@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
 {% block extrahead %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -40,4 +41,27 @@
   ]
 }
 </script>
+<meta name="theme-color" content="#ffffff">
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <filter id="ink-duotone" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="0 1"/>
+        <feFuncG type="table" tableValues="0 1"/>
+        <feFuncB type="table" tableValues="0 1"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="ink-duotone-dark" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="table" tableValues="1 0"/>
+        <feFuncG type="table" tableValues="1 0"/>
+        <feFuncB type="table" tableValues="1 0"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+</svg>
 {% endblock %}

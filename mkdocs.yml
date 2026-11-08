@@ -1,8 +1,4 @@
-# ============================================================
-# PORTFOLIO CONFIGURATION
-# ============================================================
-
-site_name: "Reihan Apriandi · Forestry & Geospatial"
+site_name: "Reihan Apriandi"
 site_description: "Portfolio of Reihan Apriandi, forestry undergraduate at Universitas Riau. GIS analysis, remote sensing, land cover monitoring, satellite observation coverage, and forest field surveys."
 site_author: "Reihan Apriandi"
 site_url: "https://hansen-arch.github.io/"
@@ -10,33 +6,30 @@ site_url: "https://hansen-arch.github.io/"
 theme:
   name: material
   custom_dir: overrides
-  icon:
-    logo: material/pine-tree
+  language: en
+  font: false
   palette:
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
     - scheme: default
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+        icon: material/invert-colors
+        name: Invert to black
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/invert-colors
+        name: Invert to white paper
   features:
     - navigation.tabs
     - navigation.top
     - navigation.instant
-    - content.code.copy
     - navigation.footer
-  font:
-    text: IBM Plex Sans
-    code: IBM Plex Mono
+    - content.code.copy
 
 extra_css:
-  - assets/css/extra.css
+  - assets/css/onebit.css
 
 extra:
   social:
@@ -50,7 +43,7 @@ extra:
       link: mailto:apriandireihan@gmail.com
       name: Email
 
-copyright: "© 2026 Reihan Apriandi · Forestry & Spatial Data Science"
+copyright: "© 2026 Reihan Apriandi / Field notes"
 
 markdown_extensions:
   - md_in_html
@@ -67,12 +60,6 @@ plugins:
   - search
   - meta
   - mkdocs-jupyter
-  - social:
-      cards: true
-      cards_layout_options:
-        background_color: "#0d0f10"
-        color: "#e8eae9"
-        font_family: IBM Plex Sans
 
 nav:
   - Home: index.md
