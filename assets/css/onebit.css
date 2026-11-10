@@ -969,10 +969,23 @@ body,
   color: var(--ink);
 }
 
-.md-nav__link:hover,
+/* The hover colour has to carry the [href] attribute. Material writes its own
+   rule as .md-nav__link[href]:hover, which outranks a plain .md-nav__link:hover
+   and puts the label back on the accent colour. This skin maps the accent to
+   ink, so a hovered entry would turn black text into a black hover block. */
+.md-nav__link[href]:hover,
+.md-nav__link[href]:focus,
+.md-nav__link[for]:hover,
+.md-nav__link[for]:focus,
 .md-nav__link--active,
 .md-nav__link[aria-current="page"] {
   background: var(--ink);
+  color: var(--paper);
+}
+
+.md-nav__link[href]:hover code,
+.md-nav__link[for]:hover code {
+  background-color: transparent;
   color: var(--paper);
 }
 
