@@ -1,5 +1,5 @@
 ---
-description: "Selected geospatial and data science projects: urban heat and green space change in Pekanbaru, oil palm tree counting from UAV imagery, biodiversity data quality tooling for GBIF, and satellite observation coverage for flood monitoring."
+description: "Selected geospatial and data science projects: urban heat and green space change in Pekanbaru, oil palm tree counting from UAV imagery, biodiversity data quality tooling for GBIF, species distribution models compared on shared data, and satellite observation coverage for flood monitoring."
 keywords:
   - geospatial projects
   - oil palm detection
@@ -16,7 +16,7 @@ hide:
 
 # Projects
 
-Five projects in forestry, remote sensing, and environmental data.
+Six projects in forestry, remote sensing, and environmental data.
 
 <div class="index-list" markdown>
 
@@ -135,6 +135,30 @@ result against Landsat.
 <div class="index-plate" markdown>
 
 <a href="urban-green-space/"><img class="dither-img" src="../assets/images/1bit/green-1.png" alt="NDVI change across Kota Pekanbaru" width="280" height="261" loading="lazy"></a>
+
+</div>
+
+</div>
+
+<div class="index-row" markdown>
+
+<div class="index-num">06</div>
+
+<div class="index-body" markdown>
+
+## [Species Distribution Models](species-distribution-models.md)
+
+Four algorithms trained on the same GBIF records, background cells and folds, so a difference
+between them is the model and not the data. MaxEnt holds 0.725 AUC on 91 presences, and every
+model loses 0.10 to 0.17 AUC once random folds are replaced by spatial blocks.
+
+`Python` `MaxEnt` `scikit-learn` `XGBoost` `GBIF`
+
+</div>
+
+<div class="index-plate" markdown>
+
+<a href="species-distribution-models/"><img class="dither-img" src="../assets/images/1bit/sdm-1.png" alt="AUC by species and algorithm under spatial block cross-validation" width="280" height="180" loading="lazy"></a>
 
 </div>
 

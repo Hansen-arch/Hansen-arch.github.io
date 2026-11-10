@@ -70,6 +70,7 @@ nav:
     - "Flood Coverage": projects/flood-coverage.md
     - "Urban Heat Island": projects/urban-heat-island.md
     - "Urban Green Space Change": projects/urban-green-space.md
+    - "Species Distribution Models": projects/species-distribution-models.md
   - Experience: experience.md
   - Contact: contact.md
 

@@ -23,6 +23,7 @@ JOBS = [
     ("flood-1.png", "flood-1.png", 280, 8, None),
     ("uhi-1.jpg", "uhi-1.png", 280, 8, None),
     ("green-1.jpg", "green-1.png", 280, 8, None),
+    ("sdm-plate.png", "sdm-1.png", 280, 8, None),
 ]
 
 
