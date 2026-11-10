@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Selected geospatial and data science projects: urban heat and green space change in Pekanbaru, oil palm tree counting from UAV imagery, biodiversity data quality tooling for GBIF, and satellite observation coverage for flood monitoring.">
+        <meta name="description" content="Selected geospatial and data science projects: urban heat and green space change in Pekanbaru, oil palm tree counting from UAV imagery, biodiversity data quality tooling for GBIF, species distribution models compared on shared data, and satellite observation coverage for flood monitoring.">
       
       
         <meta name="author" content="Reihan Apriandi">
@@ -562,6 +562,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#species-distribution-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Species Distribution Models
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -698,6 +709,34 @@
     
   
     Urban Green Space Change
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="species-distribution-models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Species Distribution Models
   
 
     
@@ -855,6 +894,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#species-distribution-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Species Distribution Models
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -875,7 +925,7 @@
 
 
 <h1 id="projects">Projects</h1>
-<p>Five projects in forestry, remote sensing, and environmental data.</p>
+<p>Six projects in forestry, remote sensing, and environmental data.</p>
 <div class="index-list">
 <div class="index-row">
 <div class="index-num">01</div>
@@ -940,6 +990,19 @@ result against Landsat.</p>
 </div>
 <div class="index-plate">
 <p><a href="urban-green-space/"><img class="dither-img" src="../assets/images/1bit/green-1.png" alt="NDVI change across Kota Pekanbaru" width="280" height="261" loading="lazy"></a></p>
+</div>
+</div>
+<div class="index-row">
+<div class="index-num">06</div>
+<div class="index-body">
+<h2 id="species-distribution-models"><a href="species-distribution-models/">Species Distribution Models</a></h2>
+<p>Four algorithms trained on the same GBIF records, background cells and folds, so a difference
+between them is the model and not the data. MaxEnt holds 0.725 AUC on 91 presences, and every
+model loses 0.10 to 0.17 AUC once random folds are replaced by spatial blocks.</p>
+<p><code>Python</code> <code>MaxEnt</code> <code>scikit-learn</code> <code>XGBoost</code> <code>GBIF</code></p>
+</div>
+<div class="index-plate">
+<p><a href="species-distribution-models/"><img class="dither-img" src="../assets/images/1bit/sdm-1.png" alt="AUC by species and algorithm under spatial block cross-validation" width="280" height="180" loading="lazy"></a></p>
 </div>
 </div>
 </div>
